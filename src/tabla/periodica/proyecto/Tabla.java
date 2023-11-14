@@ -7,6 +7,7 @@ package tabla.periodica.proyecto;
 
 import java.awt.Toolkit;
 import static javafx.scene.input.KeyCode.H;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 /**
@@ -21,99 +22,133 @@ public class Tabla extends javax.swing.JFrame {
     public Tabla() {
         initComponents();
         this.setLocationRelativeTo(this);
+       this.setExtendedState(MAXIMIZED_BOTH);
+       
         
         
-        H.setVisible(false);
-        He.setVisible(false);
-        Li.setVisible(false);
-        Be.setVisible(false);
-        B.setVisible(false);
-        C.setVisible(false);
-        N.setVisible(false);
-        O.setVisible(false);
-        F1.setVisible(false);
-        Ne.setVisible(false);
-        Na.setVisible(false);
-        Mg.setVisible(false);
-        Al.setVisible(false);
-        Si.setVisible(false);
-        P.setVisible(false);
-        S.setVisible(false);
-        Cl.setVisible(false);
-        Ar.setVisible(false);
-        K.setVisible(false);
-        Ca.setVisible(false);
-        Sc.setVisible(false);
-        Ti.setVisible(false);
-        V.setVisible(false);
-        Cr.setVisible(false);
-        Mn.setVisible(false);
-        Fe.setVisible(false);
-        Co.setVisible(false);
-        Ni.setVisible(false);
-        Cu.setVisible(false);
-        Zn.setVisible(false);
-        Ga.setVisible(false);
-        Ge.setVisible(false);
-        As.setVisible(false);
-        Se.setVisible(false);
-        Br.setVisible(false);
-        Kr.setVisible(false);
-        Rb.setVisible(false);
-        Sr.setVisible(false);
-        Y.setVisible(false);
-        Zr.setVisible(false);
-        Nb.setVisible(false);
-        Mo.setVisible(false);
-        Tc.setVisible(false);
-        Ru.setVisible(false);
-        Rh.setVisible(false);
-        Pd.setVisible(false);
-        Ag.setVisible(false);
-        Cd.setVisible(false);
-        In.setVisible(false);
-        Sn.setVisible(false);
-        Sb.setVisible(false);
-        Te.setVisible(false);
-        I.setVisible(false);
-        Xe.setVisible(false);
-        Cs.setVisible(false);
-        Ba.setVisible(false);
-        SL.setVisible(false);
-        Hf.setVisible(false);
-        Ta.setVisible(false);
-        W.setVisible(false);
-        Re.setVisible(false);
-        Os.setVisible(false);
-        Ir.setVisible(false);
-        Pt.setVisible(false);
-        Au.setVisible(false);
-        Hg.setVisible(false);
-        Tl.setVisible(false);
-        Pb.setVisible(false);
-        Bi.setVisible(false);
-        Po.setVisible(false);
-        At.setVisible(false);
-        Rn.setVisible(false);
-        Fr.setVisible(false);
-        Ra.setVisible(false);
-        SA.setVisible(false);
-        Rf.setVisible(false);
-        Db.setVisible(false);
-        Sg.setVisible(false);
-        Bh.setVisible(false);
-        Hs.setVisible(false);
-        Mt.setVisible(false);
-        Ds.setVisible(false);
-        Rg.setVisible(false);
-        Cn.setVisible(false);
-        Nh.setVisible(false);
-        Fl.setVisible(false);
-        Mc.setVisible(false);
-        Lv.setVisible(false);
-        Ts.setVisible(false);
-        Og.setVisible(false);
-        
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+       
+       
+       
     }
     
 
@@ -132,95 +167,94 @@ public class Tabla extends javax.swing.JFrame {
         jMenuBar3 = new javax.swing.JMenuBar();
         jMenu5 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
-        Na = new javax.swing.JButton();
-        H = new javax.swing.JButton();
-        Li = new javax.swing.JButton();
-        K = new javax.swing.JButton();
-        Rb = new javax.swing.JButton();
-        Cs = new javax.swing.JButton();
-        Fr = new javax.swing.JButton();
-        Be = new javax.swing.JButton();
-        Mg = new javax.swing.JButton();
-        Ca = new javax.swing.JButton();
-        Sr = new javax.swing.JButton();
-        Ba = new javax.swing.JButton();
-        Ra = new javax.swing.JButton();
-        Sc = new javax.swing.JButton();
-        Y = new javax.swing.JButton();
-        SL = new javax.swing.JButton();
-        SA = new javax.swing.JButton();
-        Ti = new javax.swing.JButton();
-        Zr = new javax.swing.JButton();
-        Hf = new javax.swing.JButton();
-        Rf = new javax.swing.JButton();
-        V = new javax.swing.JButton();
-        Nb = new javax.swing.JButton();
-        Ta = new javax.swing.JButton();
-        Db = new javax.swing.JButton();
-        Cr = new javax.swing.JButton();
-        Mo = new javax.swing.JButton();
-        W = new javax.swing.JButton();
-        Sg = new javax.swing.JButton();
-        Mn = new javax.swing.JButton();
-        Tc = new javax.swing.JButton();
-        Re = new javax.swing.JButton();
-        Bh = new javax.swing.JButton();
-        Fe = new javax.swing.JButton();
-        Ru = new javax.swing.JButton();
-        Os = new javax.swing.JButton();
-        Hs = new javax.swing.JButton();
-        Co = new javax.swing.JButton();
-        Rh = new javax.swing.JButton();
-        Ir = new javax.swing.JButton();
-        Mt = new javax.swing.JButton();
-        Ni = new javax.swing.JButton();
-        Pd = new javax.swing.JButton();
-        Pt = new javax.swing.JButton();
-        Ds = new javax.swing.JButton();
-        Cu = new javax.swing.JButton();
-        Ag = new javax.swing.JButton();
-        Au = new javax.swing.JButton();
-        Rg = new javax.swing.JButton();
-        Zn = new javax.swing.JButton();
-        Cd = new javax.swing.JButton();
-        Hg = new javax.swing.JButton();
-        Cn = new javax.swing.JButton();
-        B = new javax.swing.JButton();
-        Al = new javax.swing.JButton();
-        Ga = new javax.swing.JButton();
-        In = new javax.swing.JButton();
-        Tl = new javax.swing.JButton();
-        Nh = new javax.swing.JButton();
-        C = new javax.swing.JButton();
-        Si = new javax.swing.JButton();
-        Ge = new javax.swing.JButton();
-        Sn = new javax.swing.JButton();
-        Pb = new javax.swing.JButton();
-        Fl = new javax.swing.JButton();
-        N = new javax.swing.JButton();
-        P = new javax.swing.JButton();
-        As = new javax.swing.JButton();
-        Sb = new javax.swing.JButton();
-        Bi = new javax.swing.JButton();
-        Mc = new javax.swing.JButton();
-        O = new javax.swing.JButton();
-        S = new javax.swing.JButton();
-        Se = new javax.swing.JButton();
-        Te = new javax.swing.JButton();
-        Po = new javax.swing.JButton();
-        Lv = new javax.swing.JButton();
-        Cl = new javax.swing.JButton();
-        Br = new javax.swing.JButton();
-        I = new javax.swing.JButton();
-        At = new javax.swing.JButton();
-        Ts = new javax.swing.JButton();
-        He = new javax.swing.JButton();
-        Ne = new javax.swing.JButton();
-        Ar = new javax.swing.JButton();
-        Kr = new javax.swing.JButton();
-        Xe = new javax.swing.JButton();
-        Rn = new javax.swing.JButton();
-        Og = new javax.swing.JButton();
+        B11 = new javax.swing.JButton();
+        B3 = new javax.swing.JButton();
+        B19 = new javax.swing.JButton();
+        B37 = new javax.swing.JButton();
+        B55 = new javax.swing.JButton();
+        B73 = new javax.swing.JButton();
+        B4 = new javax.swing.JButton();
+        B12 = new javax.swing.JButton();
+        B20 = new javax.swing.JButton();
+        B38 = new javax.swing.JButton();
+        B56 = new javax.swing.JButton();
+        B74 = new javax.swing.JButton();
+        B21 = new javax.swing.JButton();
+        B39 = new javax.swing.JButton();
+        B57 = new javax.swing.JButton();
+        B75 = new javax.swing.JButton();
+        B22 = new javax.swing.JButton();
+        B40 = new javax.swing.JButton();
+        B58 = new javax.swing.JButton();
+        B76 = new javax.swing.JButton();
+        B23 = new javax.swing.JButton();
+        B41 = new javax.swing.JButton();
+        B59 = new javax.swing.JButton();
+        B77 = new javax.swing.JButton();
+        B24 = new javax.swing.JButton();
+        B42 = new javax.swing.JButton();
+        B60 = new javax.swing.JButton();
+        B78 = new javax.swing.JButton();
+        B25 = new javax.swing.JButton();
+        B43 = new javax.swing.JButton();
+        B61 = new javax.swing.JButton();
+        B79 = new javax.swing.JButton();
+        B26 = new javax.swing.JButton();
+        B44 = new javax.swing.JButton();
+        B62 = new javax.swing.JButton();
+        B80 = new javax.swing.JButton();
+        B27 = new javax.swing.JButton();
+        B45 = new javax.swing.JButton();
+        B63 = new javax.swing.JButton();
+        B81 = new javax.swing.JButton();
+        B28 = new javax.swing.JButton();
+        B46 = new javax.swing.JButton();
+        B64 = new javax.swing.JButton();
+        B82 = new javax.swing.JButton();
+        B29 = new javax.swing.JButton();
+        B47 = new javax.swing.JButton();
+        B65 = new javax.swing.JButton();
+        B83 = new javax.swing.JButton();
+        B30 = new javax.swing.JButton();
+        B48 = new javax.swing.JButton();
+        B66 = new javax.swing.JButton();
+        B84 = new javax.swing.JButton();
+        B5 = new javax.swing.JButton();
+        B13 = new javax.swing.JButton();
+        B31 = new javax.swing.JButton();
+        B49 = new javax.swing.JButton();
+        B67 = new javax.swing.JButton();
+        B85 = new javax.swing.JButton();
+        B6 = new javax.swing.JButton();
+        B14 = new javax.swing.JButton();
+        B32 = new javax.swing.JButton();
+        B50 = new javax.swing.JButton();
+        B68 = new javax.swing.JButton();
+        B86 = new javax.swing.JButton();
+        B7 = new javax.swing.JButton();
+        B15 = new javax.swing.JButton();
+        B33 = new javax.swing.JButton();
+        B51 = new javax.swing.JButton();
+        B69 = new javax.swing.JButton();
+        B87 = new javax.swing.JButton();
+        B8 = new javax.swing.JButton();
+        B16 = new javax.swing.JButton();
+        B34 = new javax.swing.JButton();
+        B52 = new javax.swing.JButton();
+        B70 = new javax.swing.JButton();
+        B88 = new javax.swing.JButton();
+        B17 = new javax.swing.JButton();
+        B35 = new javax.swing.JButton();
+        B53 = new javax.swing.JButton();
+        B71 = new javax.swing.JButton();
+        B89 = new javax.swing.JButton();
+        B2 = new javax.swing.JButton();
+        B10 = new javax.swing.JButton();
+        B18 = new javax.swing.JButton();
+        B36 = new javax.swing.JButton();
+        B54 = new javax.swing.JButton();
+        B72 = new javax.swing.JButton();
+        B90 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         T1 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
@@ -233,39 +267,74 @@ public class Tabla extends javax.swing.JFrame {
         T5 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        F1 = new javax.swing.JButton();
+        B9 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
-        jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
-        jMenuItem7 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        jMenuItem8 = new javax.swing.JMenuItem();
-        jMenuItem9 = new javax.swing.JMenuItem();
-        jMenuItem10 = new javax.swing.JMenuItem();
-        jMenuItem11 = new javax.swing.JMenuItem();
-        jMenuItem12 = new javax.swing.JMenuItem();
-        jMenuItem13 = new javax.swing.JMenuItem();
-        jMenuItem14 = new javax.swing.JMenuItem();
-        jMenuItem15 = new javax.swing.JMenuItem();
-        jMenuItem16 = new javax.swing.JMenuItem();
-        jMenuItem17 = new javax.swing.JMenuItem();
-        jMenuItem18 = new javax.swing.JMenuItem();
-        jMenuItem19 = new javax.swing.JMenuItem();
-        jMenuItem20 = new javax.swing.JMenuItem();
-        jMenuItem21 = new javax.swing.JMenuItem();
-        jMenuItem22 = new javax.swing.JMenuItem();
-        jMenuItem23 = new javax.swing.JMenuItem();
-        jMenu7 = new javax.swing.JMenu();
-        jMenuItem24 = new javax.swing.JMenuItem();
-        jMenuItem25 = new javax.swing.JMenuItem();
-        jMenuItem26 = new javax.swing.JMenuItem();
+        B1 = new javax.swing.JButton();
+        P3 = new javax.swing.JButton();
+        P2 = new javax.swing.JButton();
+        P4 = new javax.swing.JButton();
+        P5 = new javax.swing.JButton();
+        P6 = new javax.swing.JButton();
+        P7 = new javax.swing.JButton();
+        P1 = new javax.swing.JButton();
+        IA = new javax.swing.JButton();
+        IIA = new javax.swing.JButton();
+        IIIB = new javax.swing.JButton();
+        IVB = new javax.swing.JButton();
+        VB = new javax.swing.JButton();
+        VIB = new javax.swing.JButton();
+        VIIB = new javax.swing.JButton();
+        VIIIB = new javax.swing.JButton();
+        IB = new javax.swing.JButton();
+        IIB = new javax.swing.JButton();
+        IIIA = new javax.swing.JButton();
+        IVA = new javax.swing.JButton();
+        VA = new javax.swing.JButton();
+        VIA = new javax.swing.JButton();
+        VIIA = new javax.swing.JButton();
+        VIIIA = new javax.swing.JButton();
+        La = new javax.swing.JButton();
+        Ce = new javax.swing.JButton();
+        Pr = new javax.swing.JButton();
+        Nd = new javax.swing.JButton();
+        Pm = new javax.swing.JButton();
+        Sm = new javax.swing.JButton();
+        Eu = new javax.swing.JButton();
+        Gd = new javax.swing.JButton();
+        Tb = new javax.swing.JButton();
+        Dy = new javax.swing.JButton();
+        Ho = new javax.swing.JButton();
+        Er = new javax.swing.JButton();
+        Tm = new javax.swing.JButton();
+        Yb = new javax.swing.JButton();
+        Lu = new javax.swing.JButton();
+        Ac = new javax.swing.JButton();
+        Th = new javax.swing.JButton();
+        Pa = new javax.swing.JButton();
+        U = new javax.swing.JButton();
+        Np = new javax.swing.JButton();
+        Pu = new javax.swing.JButton();
+        Am = new javax.swing.JButton();
+        Cm = new javax.swing.JButton();
+        Bk = new javax.swing.JButton();
+        Cf = new javax.swing.JButton();
+        Es = new javax.swing.JButton();
+        Fm = new javax.swing.JButton();
+        Md = new javax.swing.JButton();
+        No = new javax.swing.JButton();
+        Lr = new javax.swing.JButton();
+        P8 = new javax.swing.JButton();
+        SL = new javax.swing.JButton();
+        Alcalinos = new javax.swing.JButton();
+        Alcalinoterreos = new javax.swing.JButton();
+        Halogenos = new javax.swing.JButton();
+        Gasesnobles = new javax.swing.JButton();
+        Metaloides = new javax.swing.JButton();
+        Metales = new javax.swing.JButton();
+        Nometales = new javax.swing.JButton();
+        Metalesdetransicion = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
 
         jMenu3.setText("File");
         jMenuBar2.add(jMenu3);
@@ -280,1266 +349,2484 @@ public class Tabla extends javax.swing.JFrame {
         jMenuBar3.add(jMenu6);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setMinimumSize(new java.awt.Dimension(1920, 1080));
+        setResizable(false);
+        getContentPane().setLayout(null);
 
-        Na.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Na.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Na.setText("Na");
-        Na.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Na.addActionListener(new java.awt.event.ActionListener() {
+        B11.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B11.setText("Na");
+        B11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B11.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NaActionPerformed(evt);
+                B11ActionPerformed(evt);
             }
         });
-        getContentPane().add(Na, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 332, 60, 55));
+        getContentPane().add(B11);
+        B11.setBounds(300, 460, 75, 55);
 
-        H.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        H.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        H.setText("H");
-        H.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        H.addActionListener(new java.awt.event.ActionListener() {
+        B3.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B3.setText("Li");
+        B3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HActionPerformed(evt);
+                B3ActionPerformed(evt);
             }
         });
-        getContentPane().add(H, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 193, 60, 55));
+        getContentPane().add(B3);
+        B3.setBounds(300, 400, 75, 55);
 
-        Li.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Li.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Li.setText("Li");
-        Li.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Li.addActionListener(new java.awt.event.ActionListener() {
+        B19.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B19.setText("K");
+        B19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B19.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B19.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                LiActionPerformed(evt);
+                B19ActionPerformed(evt);
             }
         });
-        getContentPane().add(Li, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 264, 60, 55));
+        getContentPane().add(B19);
+        B19.setBounds(300, 520, 75, 55);
 
-        K.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        K.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        K.setText("K");
-        K.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        K.addActionListener(new java.awt.event.ActionListener() {
+        B37.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B37.setText("Rb");
+        B37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B37.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B37.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B37.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                KActionPerformed(evt);
+                B37ActionPerformed(evt);
             }
         });
-        getContentPane().add(K, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 400, 60, 55));
+        getContentPane().add(B37);
+        B37.setBounds(300, 580, 75, 55);
 
-        Rb.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Rb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Rb.setText("Rb");
-        Rb.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Rb.addActionListener(new java.awt.event.ActionListener() {
+        B55.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B55.setText("Cs");
+        B55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B55.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B55.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B55.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RbActionPerformed(evt);
+                B55ActionPerformed(evt);
             }
         });
-        getContentPane().add(Rb, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 468, 60, 55));
+        getContentPane().add(B55);
+        B55.setBounds(300, 640, 75, 55);
 
-        Cs.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Cs.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Cs.setText("Cs");
-        Cs.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Cs.addActionListener(new java.awt.event.ActionListener() {
+        B73.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B73.setText("Fr");
+        B73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B73.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B73.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B73.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CsActionPerformed(evt);
+                B73ActionPerformed(evt);
             }
         });
-        getContentPane().add(Cs, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 536, 60, 55));
+        getContentPane().add(B73);
+        B73.setBounds(300, 700, 75, 55);
 
-        Fr.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Fr.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Fr.setText("Fr");
-        Fr.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Fr.addActionListener(new java.awt.event.ActionListener() {
+        B4.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B4.setText("Be");
+        B4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                FrActionPerformed(evt);
+                B4ActionPerformed(evt);
             }
         });
-        getContentPane().add(Fr, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 604, 60, 55));
+        getContentPane().add(B4);
+        B4.setBounds(380, 400, 75, 55);
 
-        Be.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Be.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Be.setText("Be");
-        Be.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Be.addActionListener(new java.awt.event.ActionListener() {
+        B12.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B12.setText("Mg");
+        B12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B12.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BeActionPerformed(evt);
+                B12ActionPerformed(evt);
             }
         });
-        getContentPane().add(Be, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 264, 60, 55));
+        getContentPane().add(B12);
+        B12.setBounds(380, 460, 75, 55);
 
-        Mg.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Mg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Mg.setText("Mg");
-        Mg.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Mg.addActionListener(new java.awt.event.ActionListener() {
+        B20.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B20.setText("Ca");
+        B20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B20.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B20.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MgActionPerformed(evt);
+                B20ActionPerformed(evt);
             }
         });
-        getContentPane().add(Mg, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 332, 60, 55));
+        getContentPane().add(B20);
+        B20.setBounds(380, 520, 75, 55);
 
-        Ca.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ca.setText("Ca");
-        Ca.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ca.addActionListener(new java.awt.event.ActionListener() {
+        B38.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B38.setText("Sr");
+        B38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B38.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B38.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B38.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CaActionPerformed(evt);
+                B38ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ca, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 400, 60, 55));
+        getContentPane().add(B38);
+        B38.setBounds(380, 580, 75, 55);
 
-        Sr.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Sr.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Sr.setText("Sr");
-        Sr.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Sr.addActionListener(new java.awt.event.ActionListener() {
+        B56.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B56.setText("Ba");
+        B56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B56.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B56.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B56.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SrActionPerformed(evt);
+                B56ActionPerformed(evt);
             }
         });
-        getContentPane().add(Sr, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 468, 60, 55));
+        getContentPane().add(B56);
+        B56.setBounds(380, 640, 75, 55);
 
-        Ba.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ba.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ba.setText("Ba");
-        Ba.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ba.addActionListener(new java.awt.event.ActionListener() {
+        B74.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B74.setText("Ra");
+        B74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B74.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B74.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B74.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BaActionPerformed(evt);
+                B74ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ba, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 536, 60, 55));
+        getContentPane().add(B74);
+        B74.setBounds(380, 700, 75, 55);
 
-        Ra.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ra.setText("Ra");
-        Ra.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ra.addActionListener(new java.awt.event.ActionListener() {
+        B21.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B21.setText("Sc");
+        B21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B21.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B21.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RaActionPerformed(evt);
+                B21ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ra, new org.netbeans.lib.awtextra.AbsoluteConstraints(106, 604, 60, 55));
+        getContentPane().add(B21);
+        B21.setBounds(460, 520, 75, 55);
 
-        Sc.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Sc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Sc.setText("Sc");
-        Sc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Sc.addActionListener(new java.awt.event.ActionListener() {
+        B39.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B39.setText("Y");
+        B39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B39.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B39.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B39.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ScActionPerformed(evt);
+                B39ActionPerformed(evt);
             }
         });
-        getContentPane().add(Sc, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 400, 60, 55));
+        getContentPane().add(B39);
+        B39.setBounds(460, 580, 75, 55);
 
-        Y.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Y.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Y.setText("Y");
-        Y.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Y.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                YActionPerformed(evt);
-            }
-        });
-        getContentPane().add(Y, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 468, 60, 55));
-
-        SL.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        SL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        SL.setText("S.L");
-        SL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        SL.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        SL.setSelected(true);
-        SL.setVerifyInputWhenFocusTarget(false);
-        SL.addMouseListener(new java.awt.event.MouseAdapter() {
+        B57.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B57.setText("57-71");
+        B57.setToolTipText("Serie de los Lantánidos");
+        B57.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(255, 204, 0)));
+        B57.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B57.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B57.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B57.setSelected(true);
+        B57.setVerifyInputWhenFocusTarget(false);
+        B57.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                SLMouseEntered(evt);
+                B57MouseEntered(evt);
             }
         });
-        SL.addActionListener(new java.awt.event.ActionListener() {
+        B57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SLActionPerformed(evt);
+                B57ActionPerformed(evt);
             }
         });
-        getContentPane().add(SL, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 536, 60, 55));
+        getContentPane().add(B57);
+        B57.setBounds(460, 640, 75, 55);
 
-        SA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        SA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        SA.setText("S.A");
-        SA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        SA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        SA.addMouseListener(new java.awt.event.MouseAdapter() {
+        B75.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B75.setText("89-103");
+        B75.setToolTipText("Serie de Actínidos");
+        B75.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(255, 204, 0)));
+        B75.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B75.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B75.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B75.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                SAMouseEntered(evt);
+                B75MouseEntered(evt);
             }
         });
-        SA.addActionListener(new java.awt.event.ActionListener() {
+        B75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SAActionPerformed(evt);
+                B75ActionPerformed(evt);
             }
         });
-        getContentPane().add(SA, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 604, 60, 55));
+        getContentPane().add(B75);
+        B75.setBounds(460, 700, 75, 55);
 
-        Ti.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ti.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ti.setText("Ti");
-        Ti.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ti.addActionListener(new java.awt.event.ActionListener() {
+        B22.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B22.setText("Ti");
+        B22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B22.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B22.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B22.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TiActionPerformed(evt);
+                B22ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ti, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 400, 60, 55));
+        getContentPane().add(B22);
+        B22.setBounds(540, 520, 75, 55);
 
-        Zr.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Zr.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Zr.setText("Zr");
-        Zr.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Zr.addActionListener(new java.awt.event.ActionListener() {
+        B40.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B40.setText("Zr");
+        B40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B40.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B40.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B40.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ZrActionPerformed(evt);
+                B40ActionPerformed(evt);
             }
         });
-        getContentPane().add(Zr, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 468, 60, 55));
+        getContentPane().add(B40);
+        B40.setBounds(540, 580, 75, 55);
 
-        Hf.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Hf.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Hf.setText("Hf");
-        Hf.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Hf.addActionListener(new java.awt.event.ActionListener() {
+        B58.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B58.setText("Hf");
+        B58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B58.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B58.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B58.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HfActionPerformed(evt);
+                B58ActionPerformed(evt);
             }
         });
-        getContentPane().add(Hf, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 536, 60, 55));
+        getContentPane().add(B58);
+        B58.setBounds(540, 640, 75, 55);
 
-        Rf.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Rf.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Rf.setText("Rf");
-        Rf.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Rf.addActionListener(new java.awt.event.ActionListener() {
+        B76.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B76.setText("Rf");
+        B76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B76.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B76.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B76.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RfActionPerformed(evt);
+                B76ActionPerformed(evt);
             }
         });
-        getContentPane().add(Rf, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 604, 60, 55));
+        getContentPane().add(B76);
+        B76.setBounds(540, 700, 75, 55);
 
-        V.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        V.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        V.setText("V");
-        V.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        V.addActionListener(new java.awt.event.ActionListener() {
+        B23.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B23.setText("V");
+        B23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B23.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B23.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B23.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VActionPerformed(evt);
+                B23ActionPerformed(evt);
             }
         });
-        getContentPane().add(V, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 397, 60, 55));
+        getContentPane().add(B23);
+        B23.setBounds(620, 520, 75, 55);
 
-        Nb.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Nb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Nb.setText("Nb");
-        Nb.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Nb.addActionListener(new java.awt.event.ActionListener() {
+        B41.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B41.setText("Nb");
+        B41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B41.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B41.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B41.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NbActionPerformed(evt);
+                B41ActionPerformed(evt);
             }
         });
-        getContentPane().add(Nb, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 465, 60, 55));
+        getContentPane().add(B41);
+        B41.setBounds(620, 580, 75, 55);
 
-        Ta.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ta.setText("Ta");
-        Ta.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ta.addActionListener(new java.awt.event.ActionListener() {
+        B59.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B59.setText("Ta");
+        B59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B59.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B59.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B59.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B59.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TaActionPerformed(evt);
+                B59ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ta, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 533, 60, 55));
+        getContentPane().add(B59);
+        B59.setBounds(620, 640, 75, 55);
 
-        Db.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Db.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Db.setText("Db");
-        Db.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Db.addActionListener(new java.awt.event.ActionListener() {
+        B77.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B77.setText("Db");
+        B77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B77.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B77.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B77.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DbActionPerformed(evt);
+                B77ActionPerformed(evt);
             }
         });
-        getContentPane().add(Db, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 601, 60, 55));
+        getContentPane().add(B77);
+        B77.setBounds(620, 700, 75, 55);
 
-        Cr.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Cr.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Cr.setText("Cr");
-        Cr.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Cr.addActionListener(new java.awt.event.ActionListener() {
+        B24.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B24.setText("Cr");
+        B24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B24.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B24.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B24.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CrActionPerformed(evt);
+                B24ActionPerformed(evt);
             }
         });
-        getContentPane().add(Cr, new org.netbeans.lib.awtextra.AbsoluteConstraints(394, 397, 60, 55));
+        getContentPane().add(B24);
+        B24.setBounds(700, 520, 75, 55);
 
-        Mo.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Mo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Mo.setText("Mo");
-        Mo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Mo.addActionListener(new java.awt.event.ActionListener() {
+        B42.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B42.setText("Mo");
+        B42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B42.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B42.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B42.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MoActionPerformed(evt);
+                B42ActionPerformed(evt);
             }
         });
-        getContentPane().add(Mo, new org.netbeans.lib.awtextra.AbsoluteConstraints(394, 465, 60, 55));
+        getContentPane().add(B42);
+        B42.setBounds(700, 580, 75, 55);
 
-        W.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        W.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        W.setText("W");
-        W.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        W.addActionListener(new java.awt.event.ActionListener() {
+        B60.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B60.setText("W");
+        B60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B60.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B60.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B60.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                WActionPerformed(evt);
+                B60ActionPerformed(evt);
             }
         });
-        getContentPane().add(W, new org.netbeans.lib.awtextra.AbsoluteConstraints(394, 533, 60, 55));
+        getContentPane().add(B60);
+        B60.setBounds(700, 640, 75, 55);
 
-        Sg.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Sg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Sg.setText("Sg");
-        Sg.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Sg.addActionListener(new java.awt.event.ActionListener() {
+        B78.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B78.setText("Sg");
+        B78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B78.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B78.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B78.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SgActionPerformed(evt);
+                B78ActionPerformed(evt);
             }
         });
-        getContentPane().add(Sg, new org.netbeans.lib.awtextra.AbsoluteConstraints(394, 601, 60, 55));
+        getContentPane().add(B78);
+        B78.setBounds(700, 700, 75, 55);
 
-        Mn.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Mn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Mn.setText("Mn");
-        Mn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Mn.addActionListener(new java.awt.event.ActionListener() {
+        B25.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B25.setText("Mn");
+        B25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B25.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B25.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B25.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MnActionPerformed(evt);
+                B25ActionPerformed(evt);
             }
         });
-        getContentPane().add(Mn, new org.netbeans.lib.awtextra.AbsoluteConstraints(466, 397, 60, 55));
+        getContentPane().add(B25);
+        B25.setBounds(780, 520, 75, 55);
 
-        Tc.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Tc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Tc.setText("Tc");
-        Tc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Tc.addActionListener(new java.awt.event.ActionListener() {
+        B43.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B43.setText("Tc");
+        B43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B43.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B43.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B43.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TcActionPerformed(evt);
+                B43ActionPerformed(evt);
             }
         });
-        getContentPane().add(Tc, new org.netbeans.lib.awtextra.AbsoluteConstraints(466, 465, 60, 55));
+        getContentPane().add(B43);
+        B43.setBounds(780, 580, 75, 55);
 
-        Re.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Re.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Re.setText("Re");
-        Re.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Re.addActionListener(new java.awt.event.ActionListener() {
+        B61.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B61.setText("Re");
+        B61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B61.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B61.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B61.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ReActionPerformed(evt);
+                B61ActionPerformed(evt);
             }
         });
-        getContentPane().add(Re, new org.netbeans.lib.awtextra.AbsoluteConstraints(466, 533, 60, 55));
+        getContentPane().add(B61);
+        B61.setBounds(780, 640, 75, 55);
 
-        Bh.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Bh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Bh.setText("Bh");
-        Bh.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Bh.addActionListener(new java.awt.event.ActionListener() {
+        B79.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B79.setText("Bh");
+        B79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B79.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B79.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B79.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B79.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BhActionPerformed(evt);
+                B79ActionPerformed(evt);
             }
         });
-        getContentPane().add(Bh, new org.netbeans.lib.awtextra.AbsoluteConstraints(466, 601, 60, 55));
+        getContentPane().add(B79);
+        B79.setBounds(780, 700, 75, 55);
 
-        Fe.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Fe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Fe.setText("Fe");
-        Fe.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Fe.addActionListener(new java.awt.event.ActionListener() {
+        B26.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B26.setText("Fe");
+        B26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B26.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B26.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B26.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                FeActionPerformed(evt);
+                B26ActionPerformed(evt);
             }
         });
-        getContentPane().add(Fe, new org.netbeans.lib.awtextra.AbsoluteConstraints(538, 397, 60, 55));
+        getContentPane().add(B26);
+        B26.setBounds(860, 520, 75, 55);
 
-        Ru.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ru.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ru.setText("Ru");
-        Ru.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ru.addActionListener(new java.awt.event.ActionListener() {
+        B44.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B44.setText("Ru");
+        B44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B44.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B44.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RuActionPerformed(evt);
+                B44ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ru, new org.netbeans.lib.awtextra.AbsoluteConstraints(538, 465, 60, 55));
+        getContentPane().add(B44);
+        B44.setBounds(860, 580, 75, 55);
 
-        Os.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Os.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Os.setText("Os");
-        Os.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Os.addActionListener(new java.awt.event.ActionListener() {
+        B62.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B62.setText("Os");
+        B62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B62.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B62.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B62.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                OsActionPerformed(evt);
+                B62ActionPerformed(evt);
             }
         });
-        getContentPane().add(Os, new org.netbeans.lib.awtextra.AbsoluteConstraints(538, 533, 60, 55));
+        getContentPane().add(B62);
+        B62.setBounds(860, 640, 75, 55);
 
-        Hs.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Hs.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Hs.setText("Hs");
-        Hs.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Hs.addActionListener(new java.awt.event.ActionListener() {
+        B80.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B80.setText("Hs");
+        B80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B80.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B80.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B80.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B80.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HsActionPerformed(evt);
+                B80ActionPerformed(evt);
             }
         });
-        getContentPane().add(Hs, new org.netbeans.lib.awtextra.AbsoluteConstraints(538, 601, 60, 55));
+        getContentPane().add(B80);
+        B80.setBounds(860, 700, 75, 55);
 
-        Co.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Co.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Co.setText("Co");
-        Co.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Co.addActionListener(new java.awt.event.ActionListener() {
+        B27.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B27.setText("Co");
+        B27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B27.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B27.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B27.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CoActionPerformed(evt);
+                B27ActionPerformed(evt);
             }
         });
-        getContentPane().add(Co, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 397, 60, 55));
+        getContentPane().add(B27);
+        B27.setBounds(940, 520, 75, 55);
 
-        Rh.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Rh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Rh.setText("Rh");
-        Rh.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Rh.addActionListener(new java.awt.event.ActionListener() {
+        B45.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B45.setText("Rh");
+        B45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B45.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B45.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B45.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RhActionPerformed(evt);
+                B45ActionPerformed(evt);
             }
         });
-        getContentPane().add(Rh, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 465, 60, 55));
+        getContentPane().add(B45);
+        B45.setBounds(940, 580, 75, 55);
 
-        Ir.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ir.setText("Ir");
-        Ir.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ir.addActionListener(new java.awt.event.ActionListener() {
+        B63.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B63.setText("Ir");
+        B63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B63.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B63.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B63.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                IrActionPerformed(evt);
+                B63ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ir, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 533, 60, 55));
+        getContentPane().add(B63);
+        B63.setBounds(940, 640, 75, 55);
 
-        Mt.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Mt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Mt.setText("Mt");
-        Mt.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Mt.addActionListener(new java.awt.event.ActionListener() {
+        B81.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B81.setText("Mt");
+        B81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B81.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B81.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B81.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MtActionPerformed(evt);
+                B81ActionPerformed(evt);
             }
         });
-        getContentPane().add(Mt, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 601, 60, 55));
+        getContentPane().add(B81);
+        B81.setBounds(940, 700, 75, 55);
 
-        Ni.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ni.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ni.setText("Ni");
-        Ni.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ni.addActionListener(new java.awt.event.ActionListener() {
+        B28.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B28.setText("Ni");
+        B28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B28.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B28.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B28.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NiActionPerformed(evt);
+                B28ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ni, new org.netbeans.lib.awtextra.AbsoluteConstraints(682, 400, 60, 55));
+        getContentPane().add(B28);
+        B28.setBounds(1020, 520, 75, 55);
 
-        Pd.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Pd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Pd.setText("Pd");
-        Pd.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Pd.addActionListener(new java.awt.event.ActionListener() {
+        B46.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B46.setText("Pd");
+        B46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B46.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B46.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B46.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PdActionPerformed(evt);
+                B46ActionPerformed(evt);
             }
         });
-        getContentPane().add(Pd, new org.netbeans.lib.awtextra.AbsoluteConstraints(682, 468, 60, 55));
+        getContentPane().add(B46);
+        B46.setBounds(1020, 580, 75, 55);
 
-        Pt.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Pt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Pt.setText("Pt");
-        Pt.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Pt.addActionListener(new java.awt.event.ActionListener() {
+        B64.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B64.setText("Pt");
+        B64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B64.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B64.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B64.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PtActionPerformed(evt);
+                B64ActionPerformed(evt);
             }
         });
-        getContentPane().add(Pt, new org.netbeans.lib.awtextra.AbsoluteConstraints(682, 536, 60, 55));
+        getContentPane().add(B64);
+        B64.setBounds(1020, 640, 75, 55);
 
-        Ds.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ds.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ds.setText("Ds");
-        Ds.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ds.addActionListener(new java.awt.event.ActionListener() {
+        B82.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B82.setText("Ds");
+        B82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B82.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B82.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B82.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DsActionPerformed(evt);
+                B82ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ds, new org.netbeans.lib.awtextra.AbsoluteConstraints(682, 604, 60, 55));
+        getContentPane().add(B82);
+        B82.setBounds(1020, 700, 75, 55);
 
-        Cu.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Cu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Cu.setText("Cu");
-        Cu.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Cu.addActionListener(new java.awt.event.ActionListener() {
+        B29.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B29.setText("Cu");
+        B29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B29.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B29.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CuActionPerformed(evt);
+                B29ActionPerformed(evt);
             }
         });
-        getContentPane().add(Cu, new org.netbeans.lib.awtextra.AbsoluteConstraints(754, 400, 60, 55));
+        getContentPane().add(B29);
+        B29.setBounds(1100, 520, 75, 55);
 
-        Ag.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ag.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ag.setText("Ag");
-        Ag.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ag.addActionListener(new java.awt.event.ActionListener() {
+        B47.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B47.setText("Ag");
+        B47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B47.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B47.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B47.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AgActionPerformed(evt);
+                B47ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ag, new org.netbeans.lib.awtextra.AbsoluteConstraints(754, 468, 60, 55));
+        getContentPane().add(B47);
+        B47.setBounds(1100, 580, 75, 55);
 
-        Au.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Au.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Au.setText("Au");
-        Au.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Au.addActionListener(new java.awt.event.ActionListener() {
+        B65.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B65.setText("Au");
+        B65.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B65.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B65.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B65.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AuActionPerformed(evt);
+                B65ActionPerformed(evt);
             }
         });
-        getContentPane().add(Au, new org.netbeans.lib.awtextra.AbsoluteConstraints(754, 536, 60, 55));
+        getContentPane().add(B65);
+        B65.setBounds(1100, 640, 75, 55);
 
-        Rg.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Rg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Rg.setText("Rg");
-        Rg.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Rg.addActionListener(new java.awt.event.ActionListener() {
+        B83.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B83.setText("Rg");
+        B83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B83.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B83.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B83.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B83.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RgActionPerformed(evt);
+                B83ActionPerformed(evt);
             }
         });
-        getContentPane().add(Rg, new org.netbeans.lib.awtextra.AbsoluteConstraints(754, 604, 60, 55));
+        getContentPane().add(B83);
+        B83.setBounds(1100, 700, 75, 55);
 
-        Zn.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Zn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Zn.setText("Zn");
-        Zn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Zn.addActionListener(new java.awt.event.ActionListener() {
+        B30.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B30.setText("Zn");
+        B30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B30.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B30.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B30.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ZnActionPerformed(evt);
+                B30ActionPerformed(evt);
             }
         });
-        getContentPane().add(Zn, new org.netbeans.lib.awtextra.AbsoluteConstraints(826, 400, 60, 55));
+        getContentPane().add(B30);
+        B30.setBounds(1180, 520, 75, 55);
 
-        Cd.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Cd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Cd.setText("Cd");
-        Cd.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Cd.addActionListener(new java.awt.event.ActionListener() {
+        B48.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B48.setText("Cd");
+        B48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B48.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B48.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B48.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CdActionPerformed(evt);
+                B48ActionPerformed(evt);
             }
         });
-        getContentPane().add(Cd, new org.netbeans.lib.awtextra.AbsoluteConstraints(826, 468, 60, 55));
+        getContentPane().add(B48);
+        B48.setBounds(1180, 580, 75, 55);
 
-        Hg.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Hg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Hg.setText("Hg");
-        Hg.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Hg.addActionListener(new java.awt.event.ActionListener() {
+        B66.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B66.setText("Hg");
+        B66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B66.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B66.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B66.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HgActionPerformed(evt);
+                B66ActionPerformed(evt);
             }
         });
-        getContentPane().add(Hg, new org.netbeans.lib.awtextra.AbsoluteConstraints(826, 536, 60, 55));
+        getContentPane().add(B66);
+        B66.setBounds(1180, 640, 75, 55);
 
-        Cn.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Cn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Cn.setText("Cn");
-        Cn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Cn.addActionListener(new java.awt.event.ActionListener() {
+        B84.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B84.setText("Cn");
+        B84.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B84.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B84.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B84.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CnActionPerformed(evt);
+                B84ActionPerformed(evt);
             }
         });
-        getContentPane().add(Cn, new org.netbeans.lib.awtextra.AbsoluteConstraints(826, 604, 60, 55));
+        getContentPane().add(B84);
+        B84.setBounds(1180, 700, 75, 55);
 
-        B.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        B.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
-        B.setText("B");
-        B.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        B.addActionListener(new java.awt.event.ActionListener() {
+        B5.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        B5.setText("B");
+        B5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        B5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BActionPerformed(evt);
+                B5ActionPerformed(evt);
             }
         });
-        getContentPane().add(B, new org.netbeans.lib.awtextra.AbsoluteConstraints(898, 264, 60, 55));
+        getContentPane().add(B5);
+        B5.setBounds(1260, 400, 75, 55);
 
-        Al.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Al.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Al.setText("Al");
-        Al.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Al.addActionListener(new java.awt.event.ActionListener() {
+        B13.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B13.setText("Al");
+        B13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B13.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AlActionPerformed(evt);
+                B13ActionPerformed(evt);
             }
         });
-        getContentPane().add(Al, new org.netbeans.lib.awtextra.AbsoluteConstraints(898, 332, 60, 55));
+        getContentPane().add(B13);
+        B13.setBounds(1260, 460, 75, 55);
 
-        Ga.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ga.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ga.setText("Ga");
-        Ga.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ga.addActionListener(new java.awt.event.ActionListener() {
+        B31.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B31.setText("Ga");
+        B31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B31.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B31.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B31.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                GaActionPerformed(evt);
+                B31ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ga, new org.netbeans.lib.awtextra.AbsoluteConstraints(898, 400, 60, 55));
+        getContentPane().add(B31);
+        B31.setBounds(1260, 520, 75, 55);
 
-        In.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        In.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        In.setText("In");
-        In.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        In.addActionListener(new java.awt.event.ActionListener() {
+        B49.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B49.setText("In");
+        B49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B49.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B49.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B49.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                InActionPerformed(evt);
+                B49ActionPerformed(evt);
             }
         });
-        getContentPane().add(In, new org.netbeans.lib.awtextra.AbsoluteConstraints(898, 468, 60, 55));
+        getContentPane().add(B49);
+        B49.setBounds(1260, 580, 75, 55);
 
-        Tl.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Tl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Tl.setText("Tl");
-        Tl.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Tl.addActionListener(new java.awt.event.ActionListener() {
+        B67.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B67.setText("Tl");
+        B67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B67.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B67.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B67.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TlActionPerformed(evt);
+                B67ActionPerformed(evt);
             }
         });
-        getContentPane().add(Tl, new org.netbeans.lib.awtextra.AbsoluteConstraints(898, 536, 60, 55));
+        getContentPane().add(B67);
+        B67.setBounds(1260, 640, 75, 55);
 
-        Nh.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Nh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Nh.setText("Nh");
-        Nh.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Nh.addActionListener(new java.awt.event.ActionListener() {
+        B85.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B85.setText("Nh");
+        B85.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B85.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B85.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B85.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NhActionPerformed(evt);
+                B85ActionPerformed(evt);
             }
         });
-        getContentPane().add(Nh, new org.netbeans.lib.awtextra.AbsoluteConstraints(898, 604, 60, 55));
+        getContentPane().add(B85);
+        B85.setBounds(1260, 700, 75, 55);
 
-        C.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        C.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        C.setText("C");
-        C.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        C.addActionListener(new java.awt.event.ActionListener() {
+        B6.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B6.setText("C");
+        B6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B6.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CActionPerformed(evt);
+                B6ActionPerformed(evt);
             }
         });
-        getContentPane().add(C, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 264, 60, 55));
+        getContentPane().add(B6);
+        B6.setBounds(1340, 400, 75, 55);
 
-        Si.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Si.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
-        Si.setText("Si");
-        Si.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Si.addActionListener(new java.awt.event.ActionListener() {
+        B14.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        B14.setText("Si");
+        B14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B14.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        B14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SiActionPerformed(evt);
+                B14ActionPerformed(evt);
             }
         });
-        getContentPane().add(Si, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 332, 60, 55));
+        getContentPane().add(B14);
+        B14.setBounds(1340, 460, 75, 55);
 
-        Ge.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ge.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
-        Ge.setText("Ge");
-        Ge.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ge.addActionListener(new java.awt.event.ActionListener() {
+        B32.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        B32.setText("Ge");
+        B32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B32.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B32.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B32.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        B32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                GeActionPerformed(evt);
+                B32ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ge, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 400, 60, 55));
+        getContentPane().add(B32);
+        B32.setBounds(1340, 520, 75, 55);
 
-        Sn.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Sn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Sn.setText("Sn");
-        Sn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Sn.addActionListener(new java.awt.event.ActionListener() {
+        B50.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B50.setText("Sn");
+        B50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B50.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B50.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B50.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SnActionPerformed(evt);
+                B50ActionPerformed(evt);
             }
         });
-        getContentPane().add(Sn, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 468, 60, 55));
+        getContentPane().add(B50);
+        B50.setBounds(1340, 580, 75, 55);
 
-        Pb.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Pb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Pb.setText("Pb");
-        Pb.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Pb.addActionListener(new java.awt.event.ActionListener() {
+        B68.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B68.setText("Pb");
+        B68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B68.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B68.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B68.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PbActionPerformed(evt);
+                B68ActionPerformed(evt);
             }
         });
-        getContentPane().add(Pb, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 536, 60, 55));
+        getContentPane().add(B68);
+        B68.setBounds(1340, 640, 75, 55);
 
-        Fl.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Fl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Fl.setText("Fl");
-        Fl.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Fl.addActionListener(new java.awt.event.ActionListener() {
+        B86.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B86.setText("Fl");
+        B86.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B86.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B86.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B86.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                FlActionPerformed(evt);
+                B86ActionPerformed(evt);
             }
         });
-        getContentPane().add(Fl, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 604, 60, 55));
+        getContentPane().add(B86);
+        B86.setBounds(1340, 700, 75, 55);
 
-        N.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        N.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        N.setText("N");
-        N.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        N.addActionListener(new java.awt.event.ActionListener() {
+        B7.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B7.setText("N");
+        B7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B7.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NActionPerformed(evt);
+                B7ActionPerformed(evt);
             }
         });
-        getContentPane().add(N, new org.netbeans.lib.awtextra.AbsoluteConstraints(1042, 264, 60, 55));
+        getContentPane().add(B7);
+        B7.setBounds(1420, 400, 75, 55);
 
-        P.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        P.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        P.setText("P");
-        P.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        P.addActionListener(new java.awt.event.ActionListener() {
+        B15.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B15.setText("P");
+        B15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B15.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PActionPerformed(evt);
+                B15ActionPerformed(evt);
             }
         });
-        getContentPane().add(P, new org.netbeans.lib.awtextra.AbsoluteConstraints(1042, 332, 60, 55));
+        getContentPane().add(B15);
+        B15.setBounds(1420, 460, 75, 55);
 
-        As.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        As.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
-        As.setText("As");
-        As.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        As.addActionListener(new java.awt.event.ActionListener() {
+        B33.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        B33.setText("As");
+        B33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B33.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B33.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B33.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        B33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AsActionPerformed(evt);
+                B33ActionPerformed(evt);
             }
         });
-        getContentPane().add(As, new org.netbeans.lib.awtextra.AbsoluteConstraints(1042, 400, 60, 55));
+        getContentPane().add(B33);
+        B33.setBounds(1420, 520, 75, 55);
 
-        Sb.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Sb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
-        Sb.setText("Sb");
-        Sb.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Sb.addActionListener(new java.awt.event.ActionListener() {
+        B51.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        B51.setText("Sb");
+        B51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B51.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B51.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B51.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        B51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SbActionPerformed(evt);
+                B51ActionPerformed(evt);
             }
         });
-        getContentPane().add(Sb, new org.netbeans.lib.awtextra.AbsoluteConstraints(1042, 468, 60, 55));
+        getContentPane().add(B51);
+        B51.setBounds(1420, 580, 75, 55);
 
-        Bi.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Bi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Bi.setText("Bi");
-        Bi.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Bi.addActionListener(new java.awt.event.ActionListener() {
+        B69.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B69.setText("Bi");
+        B69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B69.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B69.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B69.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BiActionPerformed(evt);
+                B69ActionPerformed(evt);
             }
         });
-        getContentPane().add(Bi, new org.netbeans.lib.awtextra.AbsoluteConstraints(1042, 536, 60, 55));
+        getContentPane().add(B69);
+        B69.setBounds(1420, 640, 75, 55);
 
-        Mc.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Mc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Mc.setText("Mc");
-        Mc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Mc.addActionListener(new java.awt.event.ActionListener() {
+        B87.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B87.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B87.setText("Mc");
+        B87.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B87.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B87.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B87.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                McActionPerformed(evt);
+                B87ActionPerformed(evt);
             }
         });
-        getContentPane().add(Mc, new org.netbeans.lib.awtextra.AbsoluteConstraints(1042, 604, 60, 55));
+        getContentPane().add(B87);
+        B87.setBounds(1420, 700, 75, 55);
 
-        O.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        O.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        O.setText("O");
-        O.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        O.addActionListener(new java.awt.event.ActionListener() {
+        B8.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B8.setText("O");
+        B8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B8.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                OActionPerformed(evt);
+                B8ActionPerformed(evt);
             }
         });
-        getContentPane().add(O, new org.netbeans.lib.awtextra.AbsoluteConstraints(1114, 264, 60, 55));
+        getContentPane().add(B8);
+        B8.setBounds(1500, 400, 75, 55);
 
-        S.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        S.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        S.setText("S");
-        S.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        S.addActionListener(new java.awt.event.ActionListener() {
+        B16.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B16.setText("S");
+        B16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B16.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SActionPerformed(evt);
+                B16ActionPerformed(evt);
             }
         });
-        getContentPane().add(S, new org.netbeans.lib.awtextra.AbsoluteConstraints(1114, 332, 60, 55));
+        getContentPane().add(B16);
+        B16.setBounds(1500, 460, 75, 55);
 
-        Se.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Se.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Se.setText("Se");
-        Se.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Se.addActionListener(new java.awt.event.ActionListener() {
+        B34.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B34.setText("Se");
+        B34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B34.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B34.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B34.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SeActionPerformed(evt);
+                B34ActionPerformed(evt);
             }
         });
-        getContentPane().add(Se, new org.netbeans.lib.awtextra.AbsoluteConstraints(1114, 400, 60, 55));
+        getContentPane().add(B34);
+        B34.setBounds(1500, 520, 75, 55);
 
-        Te.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Te.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
-        Te.setText("Te");
-        Te.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Te.addActionListener(new java.awt.event.ActionListener() {
+        B52.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        B52.setText("Te");
+        B52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B52.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B52.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B52.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        B52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TeActionPerformed(evt);
+                B52ActionPerformed(evt);
             }
         });
-        getContentPane().add(Te, new org.netbeans.lib.awtextra.AbsoluteConstraints(1114, 468, 60, 55));
+        getContentPane().add(B52);
+        B52.setBounds(1500, 580, 75, 55);
 
-        Po.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Po.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
-        Po.setText("Po");
-        Po.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Po.addActionListener(new java.awt.event.ActionListener() {
+        B70.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        B70.setText("Po");
+        B70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B70.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B70.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B70.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        B70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PoActionPerformed(evt);
+                B70ActionPerformed(evt);
             }
         });
-        getContentPane().add(Po, new org.netbeans.lib.awtextra.AbsoluteConstraints(1114, 536, 60, 55));
+        getContentPane().add(B70);
+        B70.setBounds(1500, 640, 75, 55);
 
-        Lv.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Lv.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Lv.setText("Lv");
-        Lv.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Lv.addActionListener(new java.awt.event.ActionListener() {
+        B88.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B88.setText("Lv");
+        B88.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B88.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B88.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B88.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B88.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                LvActionPerformed(evt);
+                B88ActionPerformed(evt);
             }
         });
-        getContentPane().add(Lv, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 600, 60, 55));
+        getContentPane().add(B88);
+        B88.setBounds(1500, 700, 75, 55);
 
-        Cl.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Cl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Cl.setText("Cl");
-        Cl.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Cl.addActionListener(new java.awt.event.ActionListener() {
+        B17.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B17.setText("Cl");
+        B17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B17.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B17.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ClActionPerformed(evt);
+                B17ActionPerformed(evt);
             }
         });
-        getContentPane().add(Cl, new org.netbeans.lib.awtextra.AbsoluteConstraints(1186, 332, 60, 55));
+        getContentPane().add(B17);
+        B17.setBounds(1580, 460, 75, 55);
 
-        Br.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Br.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Br.setText("Br");
-        Br.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Br.addActionListener(new java.awt.event.ActionListener() {
+        B35.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B35.setText("Br");
+        B35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B35.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B35.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B35.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BrActionPerformed(evt);
+                B35ActionPerformed(evt);
             }
         });
-        getContentPane().add(Br, new org.netbeans.lib.awtextra.AbsoluteConstraints(1186, 400, 60, 55));
+        getContentPane().add(B35);
+        B35.setBounds(1580, 520, 75, 55);
 
-        I.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        I.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        I.setText("I");
-        I.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        I.addActionListener(new java.awt.event.ActionListener() {
+        B53.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B53.setText("I");
+        B53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B53.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B53.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B53.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                IActionPerformed(evt);
+                B53ActionPerformed(evt);
             }
         });
-        getContentPane().add(I, new org.netbeans.lib.awtextra.AbsoluteConstraints(1186, 468, 60, 55));
+        getContentPane().add(B53);
+        B53.setBounds(1580, 580, 75, 55);
 
-        At.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        At.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        At.setText("At");
-        At.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        At.addActionListener(new java.awt.event.ActionListener() {
+        B71.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B71.setText("At");
+        B71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B71.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B71.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B71.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AtActionPerformed(evt);
+                B71ActionPerformed(evt);
             }
         });
-        getContentPane().add(At, new org.netbeans.lib.awtextra.AbsoluteConstraints(1186, 536, 60, 55));
+        getContentPane().add(B71);
+        B71.setBounds(1580, 640, 75, 55);
 
-        Ts.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ts.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Ts.setText("Ts");
-        Ts.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ts.addActionListener(new java.awt.event.ActionListener() {
+        B89.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B89.setText("Ts");
+        B89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B89.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B89.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B89.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B89.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TsActionPerformed(evt);
+                B89ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ts, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 600, 60, 55));
+        getContentPane().add(B89);
+        B89.setBounds(1580, 700, 75, 55);
 
-        He.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        He.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        He.setText("He");
-        He.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        He.addActionListener(new java.awt.event.ActionListener() {
+        B2.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B2.setText("He");
+        B2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                HeActionPerformed(evt);
+                B2ActionPerformed(evt);
             }
         });
-        getContentPane().add(He, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 190, 60, 55));
+        getContentPane().add(B2);
+        B2.setBounds(1660, 340, 75, 55);
 
-        Ne.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ne.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Ne.setText("Ne");
-        Ne.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ne.addActionListener(new java.awt.event.ActionListener() {
+        B10.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B10.setText("Ne");
+        B10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B10.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NeActionPerformed(evt);
+                B10ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ne, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 260, 60, 60));
+        getContentPane().add(B10);
+        B10.setBounds(1660, 400, 75, 55);
 
-        Ar.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Ar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Ar.setText("Ar");
-        Ar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Ar.addActionListener(new java.awt.event.ActionListener() {
+        B18.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B18.setText("Ar");
+        B18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B18.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B18.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ArActionPerformed(evt);
+                B18ActionPerformed(evt);
             }
         });
-        getContentPane().add(Ar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 330, 60, 55));
+        getContentPane().add(B18);
+        B18.setBounds(1660, 460, 75, 55);
 
-        Kr.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Kr.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Kr.setText("Kr");
-        Kr.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Kr.addActionListener(new java.awt.event.ActionListener() {
+        B36.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B36.setText("Kr");
+        B36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B36.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B36.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B36.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                KrActionPerformed(evt);
+                B36ActionPerformed(evt);
             }
         });
-        getContentPane().add(Kr, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 400, 60, 55));
+        getContentPane().add(B36);
+        B36.setBounds(1660, 520, 75, 55);
 
-        Xe.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Xe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Xe.setText("Xe");
-        Xe.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Xe.addActionListener(new java.awt.event.ActionListener() {
+        B54.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B54.setText("Xe");
+        B54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B54.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B54.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B54.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                XeActionPerformed(evt);
+                B54ActionPerformed(evt);
             }
         });
-        getContentPane().add(Xe, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 470, 60, 55));
+        getContentPane().add(B54);
+        B54.setBounds(1660, 580, 75, 55);
 
-        Rn.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Rn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        Rn.setText("Rn");
-        Rn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Rn.addActionListener(new java.awt.event.ActionListener() {
+        B72.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B72.setText("Rn");
+        B72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B72.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B72.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B72.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RnActionPerformed(evt);
+                B72ActionPerformed(evt);
             }
         });
-        getContentPane().add(Rn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 540, 60, 50));
+        getContentPane().add(B72);
+        B72.setBounds(1660, 640, 75, 55);
 
-        Og.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        Og.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
-        Og.setText("Og");
-        Og.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Og.addActionListener(new java.awt.event.ActionListener() {
+        B90.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        B90.setText("Og");
+        B90.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B90.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B90.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B90.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        B90.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                OgActionPerformed(evt);
+                B90ActionPerformed(evt);
             }
         });
-        getContentPane().add(Og, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 600, 60, 55));
+        getContentPane().add(B90);
+        B90.setBounds(1660, 700, 75, 55);
 
         jLabel1.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
         jLabel1.setText("Nombre:");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 120, -1, -1));
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(740, 260, 60, 20);
 
+        T1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                T1ActionPerformed(evt);
+            }
+        });
         T1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 T1KeyTyped(evt);
             }
         });
-        getContentPane().add(T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 120, 110, -1));
+        getContentPane().add(T1);
+        T1.setBounds(850, 260, 110, 22);
 
         jLabel2.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
         jLabel2.setText("N. Atómico:");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 150, -1, -1));
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(740, 290, 80, 20);
 
         T2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 T2KeyTyped(evt);
             }
         });
-        getContentPane().add(T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 150, 110, -1));
+        getContentPane().add(T2);
+        T2.setBounds(850, 290, 110, 22);
 
         jLabel3.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
         jLabel3.setText("Masa atómica:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, -1, -1));
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(740, 320, 97, 20);
 
         T3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 T3KeyTyped(evt);
             }
         });
-        getContentPane().add(T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 180, 110, -1));
+        getContentPane().add(T3);
+        T3.setBounds(850, 320, 110, 22);
 
         jLabel4.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        jLabel4.setText("Periodo:");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 210, -1, -1));
+        jLabel4.setText("Período:");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(740, 350, 58, 20);
 
         T4.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 T4KeyTyped(evt);
             }
         });
-        getContentPane().add(T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 210, 110, -1));
+        getContentPane().add(T4);
+        T4.setBounds(850, 350, 110, 22);
 
         jLabel5.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
         jLabel5.setText("Familia:");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, -1, -1));
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(740, 380, 52, 20);
 
         T5.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 T5KeyTyped(evt);
             }
         });
-        getContentPane().add(T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 240, 110, -1));
+        getContentPane().add(T5);
+        T5.setBounds(850, 380, 110, 22);
 
         jButton1.setBackground(new java.awt.Color(0, 153, 102));
         jButton1.setFont(new java.awt.Font("Eras Demi ITC", 3, 13)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/blue-technology-electric-blue-pattern-wallpaper-preview.jpg"))); // NOI18N
         jButton1.setText("Regresar");
+        jButton1.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/blue-technology xddd.jpg"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1320, 792, -1, -1));
+        getContentPane().add(jButton1);
+        jButton1.setBounds(1540, 960, 210, 60);
 
         jButton2.setBackground(new java.awt.Color(0, 153, 102));
-        jButton2.setFont(new java.awt.Font("Eras Demi ITC", 3, 13)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Eras Demi ITC", 3, 14)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
         jButton2.setText("Limpiar");
+        jButton2.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 180, -1, -1));
+        getContentPane().add(jButton2);
+        jButton2.setBounds(1020, 320, 110, 30);
 
-        F1.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
-        F1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
-        F1.setText("F");
-        F1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        F1.addActionListener(new java.awt.event.ActionListener() {
+        B9.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B9.setText("F");
+        B9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B9.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                F1ActionPerformed(evt);
+                B9ActionPerformed(evt);
             }
         });
-        getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1186, 264, 60, 55));
+        getContentPane().add(B9);
+        B9.setBounds(1580, 400, 75, 55);
 
+        jButton3.setFont(new java.awt.Font("Eras Demi ITC", 3, 14)); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
         jButton3.setText("Mostrar todo");
+        jButton3.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 280, 110, -1));
+        getContentPane().add(jButton3);
+        jButton3.setBounds(850, 420, 110, 30);
 
+        jButton4.setFont(new java.awt.Font("Eras Demi ITC", 3, 14)); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
         jButton4.setText("Ocultar todo");
+        jButton4.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 310, 110, -1));
+        getContentPane().add(jButton4);
+        jButton4.setBounds(850, 460, 110, 30);
 
-        jMenu1.setText("Periodo");
-
-        jMenuItem1.setText("1");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        B1.setFont(new java.awt.Font("Gadugi", 3, 12)); // NOI18N
+        B1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        B1.setText("H");
+        B1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        B1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        B1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                B1ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        getContentPane().add(B1);
+        B1.setBounds(300, 340, 75, 55);
 
-        jMenuItem2.setText("2");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+        P3.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        P3.setText("3");
+        P3.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        P3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem2ActionPerformed(evt);
+                P3ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem2);
+        getContentPane().add(P3);
+        P3.setBounds(190, 460, 65, 55);
 
-        jMenuItem3.setText("3");
-        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+        P2.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        P2.setText("2");
+        P2.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        P2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem3ActionPerformed(evt);
+                P2ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem3);
+        getContentPane().add(P2);
+        P2.setBounds(190, 400, 65, 55);
 
-        jMenuItem4.setText("4");
-        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+        P4.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        P4.setText("4");
+        P4.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        P4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem4ActionPerformed(evt);
+                P4ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem4);
+        getContentPane().add(P4);
+        P4.setBounds(190, 520, 65, 55);
 
-        jMenuItem5.setText("5");
-        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+        P5.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        P5.setText("5");
+        P5.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        P5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem5ActionPerformed(evt);
+                P5ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem5);
+        getContentPane().add(P5);
+        P5.setBounds(190, 580, 65, 55);
 
-        jMenuItem6.setText("6");
-        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+        P6.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        P6.setText("6");
+        P6.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P6.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        P6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem6ActionPerformed(evt);
+                P6ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem6);
+        getContentPane().add(P6);
+        P6.setBounds(190, 640, 65, 55);
 
-        jMenuItem7.setText("7");
-        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+        P7.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        P7.setText("7");
+        P7.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P7.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        P7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem7ActionPerformed(evt);
+                P7ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem7);
+        getContentPane().add(P7);
+        P7.setBounds(190, 700, 65, 55);
 
-        jMenuBar1.add(jMenu1);
-
-        jMenu2.setText("Familia");
-
-        jMenuItem8.setText("IA");
-        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+        P1.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        P1.setText("1");
+        P1.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        P1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem8ActionPerformed(evt);
+                P1ActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem8);
+        getContentPane().add(P1);
+        P1.setBounds(190, 340, 65, 55);
 
-        jMenuItem9.setText("IIA");
-        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+        IA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IA.setText("IA");
+        IA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem9ActionPerformed(evt);
+                IAActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem9);
+        getContentPane().add(IA);
+        IA.setBounds(310, 150, 75, 55);
 
-        jMenuItem10.setText("IIIB");
-        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+        IIA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IIA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IIA.setText("IIA");
+        IIA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IIA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IIA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IIA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IIA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem10ActionPerformed(evt);
+                IIAActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem10);
+        getContentPane().add(IIA);
+        IIA.setBounds(390, 150, 75, 55);
 
-        jMenuItem11.setText("IVB");
-        jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
+        IIIB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IIIB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IIIB.setText("IIIB");
+        IIIB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IIIB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IIIB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IIIB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IIIB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem11ActionPerformed(evt);
+                IIIBActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem11);
+        getContentPane().add(IIIB);
+        IIIB.setBounds(470, 150, 75, 55);
 
-        jMenuItem12.setText("VB");
-        jMenuItem12.addActionListener(new java.awt.event.ActionListener() {
+        IVB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IVB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IVB.setText("IVB");
+        IVB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IVB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IVB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IVB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IVB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem12ActionPerformed(evt);
+                IVBActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem12);
+        getContentPane().add(IVB);
+        IVB.setBounds(550, 150, 75, 55);
 
-        jMenuItem13.setText("VIB");
-        jMenu2.add(jMenuItem13);
+        VB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VB.setText("VB");
+        VB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VBActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VB);
+        VB.setBounds(630, 150, 75, 55);
 
-        jMenuItem14.setText("VIIB");
-        jMenu2.add(jMenuItem14);
+        VIB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VIB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VIB.setText("VIB");
+        VIB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VIB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VIB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VIB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VIB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VIBActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VIB);
+        VIB.setBounds(710, 150, 75, 55);
 
-        jMenuItem15.setText("VIIIB");
-        jMenu2.add(jMenuItem15);
+        VIIB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VIIB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VIIB.setText("VIIB");
+        VIIB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VIIB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VIIB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VIIB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VIIB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VIIBActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VIIB);
+        VIIB.setBounds(790, 150, 75, 55);
 
-        jMenuItem16.setText("IB");
-        jMenu2.add(jMenuItem16);
+        VIIIB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VIIIB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VIIIB.setText("VIIIB");
+        VIIIB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VIIIB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VIIIB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VIIIB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VIIIB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VIIIBActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VIIIB);
+        VIIIB.setBounds(870, 150, 235, 55);
 
-        jMenuItem17.setText("IIB");
-        jMenu2.add(jMenuItem17);
+        IB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IB.setText("IB");
+        IB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                IBActionPerformed(evt);
+            }
+        });
+        getContentPane().add(IB);
+        IB.setBounds(1110, 150, 75, 55);
 
-        jMenuItem18.setText("IIIA");
-        jMenu2.add(jMenuItem18);
+        IIB.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IIB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IIB.setText("IIB");
+        IIB.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IIB.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IIB.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IIB.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IIB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                IIBActionPerformed(evt);
+            }
+        });
+        getContentPane().add(IIB);
+        IIB.setBounds(1190, 150, 75, 55);
 
-        jMenuItem19.setText("IVA");
-        jMenu2.add(jMenuItem19);
+        IIIA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IIIA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IIIA.setText("IIIA");
+        IIIA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IIIA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IIIA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IIIA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IIIA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                IIIAActionPerformed(evt);
+            }
+        });
+        getContentPane().add(IIIA);
+        IIIA.setBounds(1270, 150, 75, 55);
 
-        jMenuItem20.setText("VA");
-        jMenu2.add(jMenuItem20);
+        IVA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        IVA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        IVA.setText("IVA");
+        IVA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        IVA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IVA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        IVA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        IVA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                IVAActionPerformed(evt);
+            }
+        });
+        getContentPane().add(IVA);
+        IVA.setBounds(1350, 150, 75, 55);
 
-        jMenuItem21.setText("VIA");
-        jMenu2.add(jMenuItem21);
+        VA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VA.setText("VA");
+        VA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VAActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VA);
+        VA.setBounds(1430, 150, 75, 55);
 
-        jMenuItem22.setText("VIIA");
-        jMenu2.add(jMenuItem22);
+        VIA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VIA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VIA.setText("VIA");
+        VIA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VIA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VIA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VIA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VIA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VIAActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VIA);
+        VIA.setBounds(1510, 150, 75, 55);
 
-        jMenuItem23.setText("VIIIA");
-        jMenu2.add(jMenuItem23);
+        VIIA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VIIA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VIIA.setText("VIIA");
+        VIIA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VIIA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VIIA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VIIA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VIIA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VIIAActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VIIA);
+        VIIA.setBounds(1590, 150, 75, 55);
 
-        jMenuBar1.add(jMenu2);
+        VIIIA.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        VIIIA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones.jpg"))); // NOI18N
+        VIIIA.setText("VIIIA");
+        VIIIA.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        VIIIA.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        VIIIA.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        VIIIA.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/fondo botones brillar.jpg"))); // NOI18N
+        VIIIA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VIIIAActionPerformed(evt);
+            }
+        });
+        getContentPane().add(VIIIA);
+        VIIIA.setBounds(1670, 150, 75, 55);
 
-        jMenu7.setText("Otros");
+        La.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        La.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        La.setText("La");
+        La.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        La.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        La.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        La.setName(""); // NOI18N
+        La.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        La.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(La);
+        La.setBounds(460, 780, 75, 55);
 
-        jMenuItem24.setText("Metales");
-        jMenu7.add(jMenuItem24);
+        Ce.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Ce.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Ce.setText("Ce");
+        Ce.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Ce.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Ce.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Ce.setName(""); // NOI18N
+        Ce.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Ce.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CeActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Ce);
+        Ce.setBounds(540, 780, 75, 55);
 
-        jMenuItem25.setText("No metales");
-        jMenu7.add(jMenuItem25);
+        Pr.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Pr.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Pr.setText("Pr");
+        Pr.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Pr.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Pr.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Pr.setName(""); // NOI18N
+        Pr.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Pr.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PrActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Pr);
+        Pr.setBounds(620, 780, 75, 55);
 
-        jMenuItem26.setText("Metaloides");
-        jMenu7.add(jMenuItem26);
+        Nd.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Nd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Nd.setText("Nd");
+        Nd.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Nd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Nd.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Nd.setName(""); // NOI18N
+        Nd.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Nd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                NdActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Nd);
+        Nd.setBounds(700, 780, 75, 55);
 
-        jMenuBar1.add(jMenu7);
+        Pm.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Pm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Pm.setText("Pm");
+        Pm.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Pm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Pm.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Pm.setName(""); // NOI18N
+        Pm.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Pm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PmActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Pm);
+        Pm.setBounds(780, 780, 75, 55);
 
-        setJMenuBar(jMenuBar1);
+        Sm.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Sm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Sm.setText("Sm");
+        Sm.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Sm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Sm.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Sm.setName(""); // NOI18N
+        Sm.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Sm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SmActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Sm);
+        Sm.setBounds(860, 780, 75, 55);
+
+        Eu.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Eu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Eu.setText("Eu");
+        Eu.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Eu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Eu.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Eu.setName(""); // NOI18N
+        Eu.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Eu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EuActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Eu);
+        Eu.setBounds(940, 780, 75, 55);
+
+        Gd.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Gd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Gd.setText("Gd");
+        Gd.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Gd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Gd.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Gd.setName(""); // NOI18N
+        Gd.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Gd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                GdActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Gd);
+        Gd.setBounds(1020, 780, 75, 55);
+
+        Tb.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Tb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Tb.setText("Tb");
+        Tb.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Tb.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Tb.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Tb.setName(""); // NOI18N
+        Tb.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Tb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TbActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Tb);
+        Tb.setBounds(1100, 780, 75, 55);
+
+        Dy.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Dy.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Dy.setText("Dy");
+        Dy.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Dy.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Dy.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Dy.setName(""); // NOI18N
+        Dy.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Dy.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DyActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Dy);
+        Dy.setBounds(1180, 780, 75, 55);
+
+        Ho.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Ho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Ho.setText("Ho");
+        Ho.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Ho.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Ho.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Ho.setName(""); // NOI18N
+        Ho.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Ho.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HoActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Ho);
+        Ho.setBounds(1260, 780, 75, 55);
+
+        Er.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Er.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Er.setText("Er");
+        Er.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Er.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Er.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Er.setName(""); // NOI18N
+        Er.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Er.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ErActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Er);
+        Er.setBounds(1340, 780, 75, 55);
+
+        Tm.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Tm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Tm.setText("Tm");
+        Tm.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Tm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Tm.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Tm.setName(""); // NOI18N
+        Tm.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Tm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TmActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Tm);
+        Tm.setBounds(1420, 780, 75, 55);
+
+        Yb.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Yb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Yb.setText("Yb");
+        Yb.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Yb.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Yb.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Yb.setName(""); // NOI18N
+        Yb.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Yb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                YbActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Yb);
+        Yb.setBounds(1500, 780, 75, 55);
+
+        Lu.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Lu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Lu.setText("Lu");
+        Lu.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Lu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Lu.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Lu.setName(""); // NOI18N
+        Lu.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Lu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LuActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Lu);
+        Lu.setBounds(1580, 780, 75, 55);
+
+        Ac.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Ac.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Ac.setText("Ac");
+        Ac.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Ac.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Ac.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Ac.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Ac.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AcActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Ac);
+        Ac.setBounds(460, 840, 75, 55);
+
+        Th.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Th.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Th.setText("Th");
+        Th.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Th.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Th.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Th.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Th.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ThActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Th);
+        Th.setBounds(540, 840, 75, 55);
+
+        Pa.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Pa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Pa.setText("Pa");
+        Pa.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Pa.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Pa.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Pa.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Pa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Pa);
+        Pa.setBounds(620, 840, 75, 55);
+
+        U.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        U.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        U.setText("U");
+        U.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        U.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        U.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        U.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        U.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                UActionPerformed(evt);
+            }
+        });
+        getContentPane().add(U);
+        U.setBounds(700, 840, 75, 55);
+
+        Np.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Np.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Np.setText("Np");
+        Np.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Np.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Np.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Np.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Np.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                NpActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Np);
+        Np.setBounds(780, 840, 75, 55);
+
+        Pu.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Pu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Pu.setText("Pu");
+        Pu.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Pu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Pu.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Pu.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Pu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PuActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Pu);
+        Pu.setBounds(860, 840, 75, 55);
+
+        Am.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Am.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Am.setText("Am");
+        Am.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Am.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Am.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Am.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Am.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AmActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Am);
+        Am.setBounds(940, 840, 75, 55);
+
+        Cm.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Cm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Cm.setText("Cm");
+        Cm.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Cm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Cm.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Cm.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Cm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CmActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Cm);
+        Cm.setBounds(1020, 840, 75, 55);
+
+        Bk.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Bk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Bk.setText("Bk");
+        Bk.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Bk.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Bk.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Bk.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Bk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BkActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Bk);
+        Bk.setBounds(1100, 840, 75, 55);
+
+        Cf.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Cf.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Cf.setText("Cf");
+        Cf.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Cf.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Cf.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Cf.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Cf.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CfActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Cf);
+        Cf.setBounds(1180, 840, 75, 55);
+
+        Es.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Es.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Es.setText("Es");
+        Es.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Es.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Es.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Es.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Es.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EsActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Es);
+        Es.setBounds(1260, 840, 75, 55);
+
+        Fm.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Fm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Fm.setText("Fm");
+        Fm.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Fm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Fm.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Fm.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Fm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                FmActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Fm);
+        Fm.setBounds(1340, 840, 75, 55);
+
+        Md.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Md.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Md.setText("Md");
+        Md.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Md.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Md.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Md.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Md.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MdActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Md);
+        Md.setBounds(1420, 840, 75, 55);
+
+        No.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        No.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        No.setText("No");
+        No.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        No.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        No.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        No.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        No.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                NoActionPerformed(evt);
+            }
+        });
+        getContentPane().add(No);
+        No.setBounds(1500, 840, 75, 55);
+
+        Lr.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Lr.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Lr.setText("Lr");
+        Lr.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Lr.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Lr.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Lr.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Lr.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LrActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Lr);
+        Lr.setBounds(1580, 840, 75, 55);
+
+        P8.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        P8.setForeground(new java.awt.Color(255, 255, 255));
+        P8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Boton amarillo bajo.png"))); // NOI18N
+        P8.setText("Serie de Actínidos");
+        P8.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        P8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        P8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        P8.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        P8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                P8ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(P8);
+        P8.setBounds(300, 840, 150, 55);
+
+        SL.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        SL.setForeground(new java.awt.Color(255, 255, 255));
+        SL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Boton amarillo bajo.png"))); // NOI18N
+        SL.setText("Serie de Lantánidos");
+        SL.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        SL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        SL.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        SL.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        SL.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SLActionPerformed(evt);
+            }
+        });
+        getContentPane().add(SL);
+        SL.setBounds(300, 780, 150, 55);
+
+        Alcalinos.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Alcalinos.setForeground(new java.awt.Color(255, 255, 255));
+        Alcalinos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Boton amarillo bajo.png"))); // NOI18N
+        Alcalinos.setText("Metales alcalinos");
+        Alcalinos.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Alcalinos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Alcalinos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Alcalinos.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Alcalinos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AlcalinosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Alcalinos);
+        Alcalinos.setBounds(530, 70, 170, 55);
+
+        Alcalinoterreos.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Alcalinoterreos.setForeground(new java.awt.Color(255, 255, 255));
+        Alcalinoterreos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Boton amarillo bajo.png"))); // NOI18N
+        Alcalinoterreos.setText("Metales alcalinotérreos");
+        Alcalinoterreos.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Alcalinoterreos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Alcalinoterreos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Alcalinoterreos.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Alcalinoterreos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AlcalinoterreosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Alcalinoterreos);
+        Alcalinoterreos.setBounds(710, 70, 170, 55);
+
+        Halogenos.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Halogenos.setForeground(new java.awt.Color(255, 255, 255));
+        Halogenos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón verde bajo.png"))); // NOI18N
+        Halogenos.setText("Halógenos");
+        Halogenos.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Halogenos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Halogenos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Halogenos.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        Halogenos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HalogenosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Halogenos);
+        Halogenos.setBounds(1070, 70, 170, 55);
+
+        Gasesnobles.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Gasesnobles.setForeground(new java.awt.Color(255, 255, 255));
+        Gasesnobles.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón verde bajo.png"))); // NOI18N
+        Gasesnobles.setText("Gases nobles");
+        Gasesnobles.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Gasesnobles.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Gasesnobles.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Gasesnobles.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        Gasesnobles.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                GasesnoblesActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Gasesnobles);
+        Gasesnobles.setBounds(1250, 70, 170, 55);
+
+        Metaloides.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Metaloides.setForeground(new java.awt.Color(255, 255, 255));
+        Metaloides.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja.png"))); // NOI18N
+        Metaloides.setText("Metaloides");
+        Metaloides.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Metaloides.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Metaloides.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Metaloides.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón naranja brillar.png"))); // NOI18N
+        Metaloides.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MetaloidesActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Metaloides);
+        Metaloides.setBounds(890, 0, 170, 55);
+
+        Metales.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Metales.setForeground(new java.awt.Color(255, 255, 255));
+        Metales.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Metales.setText("Metales");
+        Metales.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Metales.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Metales.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Metales.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo brillar.png"))); // NOI18N
+        Metales.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MetalesActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Metales);
+        Metales.setBounds(710, 0, 170, 55);
+
+        Nometales.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Nometales.setForeground(new java.awt.Color(255, 255, 255));
+        Nometales.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde.png"))); // NOI18N
+        Nometales.setText("No metales");
+        Nometales.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Nometales.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Nometales.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Nometales.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón  verde brillar.png"))); // NOI18N
+        Nometales.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                NometalesActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Nometales);
+        Nometales.setBounds(1070, 0, 170, 55);
+
+        Metalesdetransicion.setFont(new java.awt.Font("Gadugi", 3, 14)); // NOI18N
+        Metalesdetransicion.setForeground(new java.awt.Color(255, 255, 255));
+        Metalesdetransicion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Boton amarillo bajo.png"))); // NOI18N
+        Metalesdetransicion.setText("Metales de transición");
+        Metalesdetransicion.setBorder(javax.swing.BorderFactory.createMatteBorder(5, 5, 5, 5, new java.awt.Color(0, 0, 0)));
+        Metalesdetransicion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Metalesdetransicion.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Metalesdetransicion.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/Botón amarillo.png"))); // NOI18N
+        Metalesdetransicion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MetalesdetransicionActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Metalesdetransicion);
+        Metalesdetransicion.setBounds(890, 70, 170, 55);
+
+        jLabel6.setBackground(new java.awt.Color(102, 255, 204));
+        jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel6.setOpaque(true);
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(0, 0, 1950, 1080);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void HActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HActionPerformed
-        T1.setText("Hidrógeno");
-        T2.setText("1");
-        T3.setText("1.00786 u");
-        T4.setText("1");
-        T5.setText("IA");
-        
-    }//GEN-LAST:event_HActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Inicio window=new Inicio();
@@ -1591,1059 +2878,5522 @@ public class Tabla extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_T5KeyTyped
 
-    private void LiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LiActionPerformed
+    private void B3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B3ActionPerformed
         T1.setText("Litio");
         T2.setText("3");
         T3.setText("6.938 u");
         T4.setText("2");
         T5.setText("IA");
-    }//GEN-LAST:event_LiActionPerformed
+    }//GEN-LAST:event_B3ActionPerformed
 
-    private void NaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NaActionPerformed
+    private void B11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B11ActionPerformed
         T1.setText("Sodio");
         T2.setText("11");
         T3.setText("22.9898 u");
         T4.setText("3");
         T5.setText("IA");
-    }//GEN-LAST:event_NaActionPerformed
+    }//GEN-LAST:event_B11ActionPerformed
 
-    private void KActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KActionPerformed
+    private void B19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B19ActionPerformed
         T1.setText("Potasio");
         T2.setText("19");
         T3.setText("39.0983 u");
         T4.setText("4");
         T5.setText("IA");
-    }//GEN-LAST:event_KActionPerformed
+    }//GEN-LAST:event_B19ActionPerformed
 
-    private void RbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RbActionPerformed
+    private void B37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B37ActionPerformed
         T1.setText("Rubidio");
         T2.setText("37");
         T3.setText("85.4678 u");
         T4.setText("5");
         T5.setText("IA");
-    }//GEN-LAST:event_RbActionPerformed
+    }//GEN-LAST:event_B37ActionPerformed
 
-    private void CsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CsActionPerformed
+    private void B55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B55ActionPerformed
         T1.setText("Cesio");
         T2.setText("55");
         T3.setText("132.90545 u");
         T4.setText("6");
         T5.setText("IA");
-    }//GEN-LAST:event_CsActionPerformed
+    }//GEN-LAST:event_B55ActionPerformed
 
-    private void FrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FrActionPerformed
+    private void B73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B73ActionPerformed
         T1.setText("Francio");
         T2.setText("87");
         T3.setText("223 u");
         T4.setText("7");
         T5.setText("IA");
-    }//GEN-LAST:event_FrActionPerformed
+    }//GEN-LAST:event_B73ActionPerformed
 
-    private void BeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BeActionPerformed
+    private void B4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B4ActionPerformed
         T1.setText("Berilio");
         T2.setText("4");
         T3.setText("9.01218 u");
         T4.setText("2");
         T5.setText("IIA");
-    }//GEN-LAST:event_BeActionPerformed
+    }//GEN-LAST:event_B4ActionPerformed
 
-    private void MgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MgActionPerformed
+    private void B12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B12ActionPerformed
         T1.setText("Magnesio");
         T2.setText("12");
         T3.setText("24.305 u");
         T4.setText("3");
         T5.setText("IIA");
-    }//GEN-LAST:event_MgActionPerformed
+    }//GEN-LAST:event_B12ActionPerformed
 
-    private void CaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CaActionPerformed
+    private void B20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B20ActionPerformed
         T1.setText("Calcio");
         T2.setText("20");
         T3.setText("40.078 u");
         T4.setText("4");
         T5.setText("IIA");
-    }//GEN-LAST:event_CaActionPerformed
+    }//GEN-LAST:event_B20ActionPerformed
 
-    private void SrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SrActionPerformed
+    private void B38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B38ActionPerformed
         T1.setText("Estroncio");
         T2.setText("38");
         T3.setText("87.62 u");
         T4.setText("5");
         T5.setText("IIA");
-    }//GEN-LAST:event_SrActionPerformed
+    }//GEN-LAST:event_B38ActionPerformed
 
-    private void BaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BaActionPerformed
+    private void B56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B56ActionPerformed
         T1.setText("Bario");
         T2.setText("56");
         T3.setText("137.327 u");
         T4.setText("6");
         T5.setText("IIA");
-    }//GEN-LAST:event_BaActionPerformed
+    }//GEN-LAST:event_B56ActionPerformed
 
-    private void RaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RaActionPerformed
+    private void B74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B74ActionPerformed
         T1.setText("Radio");
         T2.setText("88");
         T3.setText("226 u");
         T4.setText("7");
         T5.setText("IIA");
-    }//GEN-LAST:event_RaActionPerformed
+    }//GEN-LAST:event_B74ActionPerformed
 
-    private void ScActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ScActionPerformed
+    private void B21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B21ActionPerformed
         T1.setText("Escandio");
         T2.setText("21");
         T3.setText("44.9559 u");
         T4.setText("4");
         T5.setText("IIIB");
-    }//GEN-LAST:event_ScActionPerformed
+    }//GEN-LAST:event_B21ActionPerformed
 
-    private void YActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_YActionPerformed
+    private void B39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B39ActionPerformed
         T1.setText("Itrio");
         T2.setText("39");
         T3.setText("88.9058 u");
         T4.setText("5");
         T5.setText("IIIB");
-    }//GEN-LAST:event_YActionPerformed
+    }//GEN-LAST:event_B39ActionPerformed
 
-    private void SLMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SLMouseEntered
-        String texto="Serie de los Lantánidos";
-        SL.setToolTipText(texto);
+    private void B57MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B57MouseEntered
+        
 
-    }//GEN-LAST:event_SLMouseEntered
+    }//GEN-LAST:event_B57MouseEntered
 
-    private void SAMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SAMouseEntered
-        String texto="Serie de los Actínidos";
-        SA.setToolTipText(texto);
-    }//GEN-LAST:event_SAMouseEntered
+    private void B75MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B75MouseEntered
+    
+    }//GEN-LAST:event_B75MouseEntered
 
-    private void SLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SLActionPerformed
-        Seriedelantanidos window=new Seriedelantanidos();
-        window.setTitle("Serie de Lantánidos");
-        window.setVisible(true);
-        dispose();
-    }//GEN-LAST:event_SLActionPerformed
+    private void B57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B57ActionPerformed
+        La.setVisible(true);
+        Ce.setVisible(true);
+        Pr.setVisible(true);
+        Nd.setVisible(true);
+        Pm.setVisible(true);
+        Sm.setVisible(true);
+        Eu.setVisible(true);
+        Gd.setVisible(true);
+        Tb.setVisible(true);
+        Dy.setVisible(true);
+        Ho.setVisible(true);
+        Er.setVisible(true);
+        Tm.setVisible(true);
+        Yb.setVisible(true);
+        Lu.setVisible(true);
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+   
+      
+    }//GEN-LAST:event_B57ActionPerformed
 
-    private void SAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SAActionPerformed
-        Seriedeactinidos window=new Seriedeactinidos();
-        window.setTitle("Serie de Actínidos");
-        window.setVisible(true);
-        dispose();
-    }//GEN-LAST:event_SAActionPerformed
+    private void B75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B75ActionPerformed
+         Ac.setVisible(true);
+        Th.setVisible(true);
+        Pa.setVisible(true);
+        U.setVisible(true);
+        Np.setVisible(true);
+        Pu.setVisible(true);
+        Am.setVisible(true);
+        Cm.setVisible(true);
+        Bk.setVisible(true);
+        Cf.setVisible(true);
+        Es.setVisible(true);
+        Fm.setVisible(true);
+        Md.setVisible(true);
+        No.setVisible(true);
+        Lr.setVisible(true);
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+     
+        
+    }//GEN-LAST:event_B75ActionPerformed
 
-    private void TiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TiActionPerformed
+    private void B22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B22ActionPerformed
         T1.setText("Titanio");
         T2.setText("22");
         T3.setText("47.867 u");
         T4.setText("4");
         T5.setText("IVB");
-    }//GEN-LAST:event_TiActionPerformed
+    }//GEN-LAST:event_B22ActionPerformed
 
-    private void ZrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ZrActionPerformed
+    private void B40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B40ActionPerformed
         T1.setText("Zirconio");
         T2.setText("40");
         T3.setText("91.224 u");
         T4.setText("5");
         T5.setText("IVB");
-    }//GEN-LAST:event_ZrActionPerformed
+    }//GEN-LAST:event_B40ActionPerformed
 
-    private void HfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HfActionPerformed
+    private void B58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B58ActionPerformed
         T1.setText("Hafnio");
         T2.setText("72");
         T3.setText("178.49 u");
         T4.setText("6");
         T5.setText("IVB");
-    }//GEN-LAST:event_HfActionPerformed
+    }//GEN-LAST:event_B58ActionPerformed
 
-    private void RfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RfActionPerformed
+    private void B76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B76ActionPerformed
         T1.setText("Rutherfordio");
         T2.setText("104");
         T3.setText("261 u");
         T4.setText("7");
         T5.setText("IVB");
-    }//GEN-LAST:event_RfActionPerformed
+    }//GEN-LAST:event_B76ActionPerformed
 
-    private void VActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VActionPerformed
+    private void B23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B23ActionPerformed
         T1.setText("Vanadio");
         T2.setText("23");
         T3.setText("50.9415 u");
         T4.setText("4");
         T5.setText("VB");
-    }//GEN-LAST:event_VActionPerformed
+    }//GEN-LAST:event_B23ActionPerformed
 
-    private void NbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NbActionPerformed
+    private void B41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B41ActionPerformed
         T1.setText("Niobio");
         T2.setText("41");
         T3.setText("92.9063 u");
         T4.setText("5");
         T5.setText("VB");
-    }//GEN-LAST:event_NbActionPerformed
+    }//GEN-LAST:event_B41ActionPerformed
 
-    private void TaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TaActionPerformed
+    private void B59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B59ActionPerformed
         T1.setText("Tantalio");
         T2.setText("73");
         T3.setText("180.94788 u");
         T4.setText("6");
         T5.setText("VB");
-    }//GEN-LAST:event_TaActionPerformed
+    }//GEN-LAST:event_B59ActionPerformed
 
-    private void DbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DbActionPerformed
+    private void B77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B77ActionPerformed
         T1.setText("Dubnio");
         T2.setText("105");
         T3.setText("262 u");
         T4.setText("7");
         T5.setText("VB");
-    }//GEN-LAST:event_DbActionPerformed
+    }//GEN-LAST:event_B77ActionPerformed
 
-    private void CrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrActionPerformed
+    private void B24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B24ActionPerformed
         T1.setText("Cromo");
         T2.setText("24");
         T3.setText("51.996 u");
         T4.setText("4");
         T5.setText("VIB");
-    }//GEN-LAST:event_CrActionPerformed
+    }//GEN-LAST:event_B24ActionPerformed
 
-    private void MoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MoActionPerformed
+    private void B42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B42ActionPerformed
         T1.setText("Moliibdeno");
         T2.setText("42");
         T3.setText("95.95 u");
         T4.setText("5");
         T5.setText("VIB");
-    }//GEN-LAST:event_MoActionPerformed
+    }//GEN-LAST:event_B42ActionPerformed
 
-    private void WActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WActionPerformed
+    private void B60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B60ActionPerformed
         T1.setText("Volframio");
         T2.setText("74");
         T3.setText("183.84 u");
         T4.setText("6");
         T5.setText("VIB");
-    }//GEN-LAST:event_WActionPerformed
+    }//GEN-LAST:event_B60ActionPerformed
 
-    private void SgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SgActionPerformed
+    private void B78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B78ActionPerformed
         T1.setText("Seaborgio");
         T2.setText("106");
         T3.setText("266 u");
         T4.setText("7");
         T5.setText("VIB");
-    }//GEN-LAST:event_SgActionPerformed
+    }//GEN-LAST:event_B78ActionPerformed
 
-    private void MnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MnActionPerformed
+    private void B25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B25ActionPerformed
         T1.setText("Manganeso");
         T2.setText("25");
         T3.setText("54.93804 u");
         T4.setText("4");
         T5.setText("VIIB");
-    }//GEN-LAST:event_MnActionPerformed
+    }//GEN-LAST:event_B25ActionPerformed
 
-    private void TcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TcActionPerformed
+    private void B43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B43ActionPerformed
         T1.setText("Tecnecio");
         T2.setText("43");
         T3.setText("98 u");
         T4.setText("5");
         T5.setText("VIIB");
-    }//GEN-LAST:event_TcActionPerformed
+    }//GEN-LAST:event_B43ActionPerformed
 
-    private void ReActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReActionPerformed
+    private void B61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B61ActionPerformed
         T1.setText("Renio");
         T2.setText("75");
         T3.setText("186.207 u");
         T4.setText("6");
         T5.setText("VIIB");
-    }//GEN-LAST:event_ReActionPerformed
+    }//GEN-LAST:event_B61ActionPerformed
 
-    private void BhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BhActionPerformed
+    private void B79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B79ActionPerformed
         T1.setText("Bohrio");
         T2.setText("107");
         T3.setText("264 u");
         T4.setText("7");
         T5.setText("VIIB");
-    }//GEN-LAST:event_BhActionPerformed
+    }//GEN-LAST:event_B79ActionPerformed
 
-    private void FeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FeActionPerformed
+    private void B26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B26ActionPerformed
         T1.setText("Hierro");
         T2.setText("26");
         T3.setText("55.845 u");
         T4.setText("4");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_FeActionPerformed
+    }//GEN-LAST:event_B26ActionPerformed
 
-    private void RuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RuActionPerformed
+    private void B44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B44ActionPerformed
         T1.setText("Rutenio");
         T2.setText("44");
         T3.setText("101.07 u");
         T4.setText("5");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_RuActionPerformed
+    }//GEN-LAST:event_B44ActionPerformed
 
-    private void OsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OsActionPerformed
+    private void B62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B62ActionPerformed
         T1.setText("Osmio");
         T2.setText("76");
         T3.setText("190.23 u");
         T4.setText("6");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_OsActionPerformed
+    }//GEN-LAST:event_B62ActionPerformed
 
-    private void HsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HsActionPerformed
+    private void B80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B80ActionPerformed
         T1.setText("Hassio");
         T2.setText("108");
         T3.setText("267 u");
         T4.setText("7");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_HsActionPerformed
+    }//GEN-LAST:event_B80ActionPerformed
 
-    private void CoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CoActionPerformed
+    private void B27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B27ActionPerformed
         T1.setText("Cobalto");
         T2.setText("27");
         T3.setText("58.93313 u");
         T4.setText("4");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_CoActionPerformed
+    }//GEN-LAST:event_B27ActionPerformed
 
-    private void RhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RhActionPerformed
+    private void B45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B45ActionPerformed
         T1.setText("Rodio");
         T2.setText("45");
         T3.setText("102.9055 u");
         T4.setText("5");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_RhActionPerformed
+    }//GEN-LAST:event_B45ActionPerformed
 
-    private void IrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IrActionPerformed
+    private void B63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B63ActionPerformed
         T1.setText("Ir");
         T2.setText("77");
         T3.setText("192.217 u");
         T4.setText("6");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_IrActionPerformed
+    }//GEN-LAST:event_B63ActionPerformed
 
-    private void MtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MtActionPerformed
+    private void B81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B81ActionPerformed
         T1.setText("Meitnerio");
         T2.setText("109");
         T3.setText("268 u");
         T4.setText("7");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_MtActionPerformed
+    }//GEN-LAST:event_B81ActionPerformed
 
-    private void NiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NiActionPerformed
+    private void B28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B28ActionPerformed
         T1.setText("Niquel");
         T2.setText("28");
         T3.setText("58.6934 u");
         T4.setText("4");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_NiActionPerformed
+    }//GEN-LAST:event_B28ActionPerformed
 
-    private void PdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PdActionPerformed
+    private void B46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B46ActionPerformed
         T1.setText("Paladio");
         T2.setText("46");
         T3.setText("106.42 u");
         T4.setText("5");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_PdActionPerformed
+    }//GEN-LAST:event_B46ActionPerformed
 
-    private void PtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PtActionPerformed
+    private void B64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B64ActionPerformed
         T1.setText("Platino");
         T2.setText("78");
         T3.setText("195.084 u");
         T4.setText("6");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_PtActionPerformed
+    }//GEN-LAST:event_B64ActionPerformed
 
-    private void DsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DsActionPerformed
+    private void B82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B82ActionPerformed
         T1.setText("Darmstadtio");
         T2.setText("110");
         T3.setText("271 u");
         T4.setText("7");
         T5.setText("VIIIB");
-    }//GEN-LAST:event_DsActionPerformed
+    }//GEN-LAST:event_B82ActionPerformed
 
-    private void CuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CuActionPerformed
+    private void B29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B29ActionPerformed
         T1.setText("Cobre");
         T2.setText("29");
         T3.setText("63.546 u");
         T4.setText("4");
         T5.setText("IB");
-    }//GEN-LAST:event_CuActionPerformed
+    }//GEN-LAST:event_B29ActionPerformed
 
-    private void AgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AgActionPerformed
+    private void B47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B47ActionPerformed
         T1.setText("Plata");
         T2.setText("47");
         T3.setText("107.8682 u");
         T4.setText("5");
         T5.setText("IB");
-    }//GEN-LAST:event_AgActionPerformed
+    }//GEN-LAST:event_B47ActionPerformed
 
-    private void AuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AuActionPerformed
+    private void B65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B65ActionPerformed
         T1.setText("Oro");
         T2.setText("79");
         T3.setText("196.966569 u");
         T4.setText("6");
         T5.setText("IB");
-    }//GEN-LAST:event_AuActionPerformed
+    }//GEN-LAST:event_B65ActionPerformed
 
-    private void RgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RgActionPerformed
+    private void B83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B83ActionPerformed
         T1.setText("Roentgenio");
         T2.setText("111");
         T3.setText("272 u");
         T4.setText("7");
         T5.setText("IB");
-    }//GEN-LAST:event_RgActionPerformed
+    }//GEN-LAST:event_B83ActionPerformed
 
-    private void ZnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ZnActionPerformed
+    private void B30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B30ActionPerformed
         T1.setText("Zinc");
         T2.setText("30");
         T3.setText("65.38 u");
         T4.setText("4");
         T5.setText("IIB");
-    }//GEN-LAST:event_ZnActionPerformed
+    }//GEN-LAST:event_B30ActionPerformed
 
-    private void CdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CdActionPerformed
+    private void B48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B48ActionPerformed
         T1.setText("Cadmio");
         T2.setText("48");
         T3.setText("112.414 u");
         T4.setText("5");
         T5.setText("IIB");
-    }//GEN-LAST:event_CdActionPerformed
+    }//GEN-LAST:event_B48ActionPerformed
 
-    private void HgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HgActionPerformed
+    private void B66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B66ActionPerformed
         T1.setText("Mercurio");
         T2.setText("80");
         T3.setText("200.592 u");
         T4.setText("6");
         T5.setText("IIB");
-    }//GEN-LAST:event_HgActionPerformed
+    }//GEN-LAST:event_B66ActionPerformed
 
-    private void CnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CnActionPerformed
+    private void B84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B84ActionPerformed
         T1.setText("Copernicio");
         T2.setText("112");
         T3.setText("285 u");
         T4.setText("7");
         T5.setText("IIB");
-    }//GEN-LAST:event_CnActionPerformed
+    }//GEN-LAST:event_B84ActionPerformed
 
-    private void BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BActionPerformed
+    private void B5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B5ActionPerformed
         T1.setText("Boro");
         T2.setText("5");
         T3.setText("10.806 u");
         T4.setText("2");
         T5.setText("IIIA");
-    }//GEN-LAST:event_BActionPerformed
+    }//GEN-LAST:event_B5ActionPerformed
 
-    private void AlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AlActionPerformed
+    private void B13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B13ActionPerformed
         T1.setText("Aluminio");
         T2.setText("13");
         T3.setText("26.9815385 u");
         T4.setText("3");
         T5.setText("IIIA");
-    }//GEN-LAST:event_AlActionPerformed
+    }//GEN-LAST:event_B13ActionPerformed
 
-    private void GaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GaActionPerformed
+    private void B31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B31ActionPerformed
         T1.setText("Galio");
         T2.setText("31");
         T3.setText("69.723 u");
         T4.setText("4");
         T5.setText("IIIA");
-    }//GEN-LAST:event_GaActionPerformed
+    }//GEN-LAST:event_B31ActionPerformed
 
-    private void InActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InActionPerformed
+    private void B49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B49ActionPerformed
         T1.setText("Indio");
         T2.setText("49");
         T3.setText("114.818 u");
         T4.setText("5");
         T5.setText("IIIA");
-    }//GEN-LAST:event_InActionPerformed
+    }//GEN-LAST:event_B49ActionPerformed
 
-    private void TlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TlActionPerformed
+    private void B67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B67ActionPerformed
         T1.setText("Talio");
         T2.setText("81");
         T3.setText("204.382 u");
         T4.setText("6");
         T5.setText("IIIA");
-    }//GEN-LAST:event_TlActionPerformed
+    }//GEN-LAST:event_B67ActionPerformed
 
-    private void NhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NhActionPerformed
+    private void B85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B85ActionPerformed
         T1.setText("Nihonium");
         T2.setText("113");
         T3.setText("284 u");
         T4.setText("7");
         T5.setText("IIIA");
-    }//GEN-LAST:event_NhActionPerformed
+    }//GEN-LAST:event_B85ActionPerformed
 
-    private void CActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CActionPerformed
+    private void B6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B6ActionPerformed
         T1.setText("Carbono");
         T2.setText("6");
         T3.setText("12.0116 u");
         T4.setText("2");
         T5.setText("IVA");
-    }//GEN-LAST:event_CActionPerformed
+    }//GEN-LAST:event_B6ActionPerformed
 
-    private void SiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SiActionPerformed
+    private void B14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B14ActionPerformed
         T1.setText("Silicio");
         T2.setText("14");
         T3.setText("28.085 u");
         T4.setText("3");
         T5.setText("IVA");
-    }//GEN-LAST:event_SiActionPerformed
+    }//GEN-LAST:event_B14ActionPerformed
 
-    private void GeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GeActionPerformed
+    private void B32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B32ActionPerformed
         T1.setText("Germanio");
         T2.setText("32");
         T3.setText("72.630 u");
         T4.setText("4");
         T5.setText("IVA");
-    }//GEN-LAST:event_GeActionPerformed
+    }//GEN-LAST:event_B32ActionPerformed
 
-    private void SnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SnActionPerformed
+    private void B50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B50ActionPerformed
         T1.setText("Estaño");
         T2.setText("50");
         T3.setText("118.710 u");
         T4.setText("5");
         T5.setText("IVA");
-    }//GEN-LAST:event_SnActionPerformed
+    }//GEN-LAST:event_B50ActionPerformed
 
-    private void PbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PbActionPerformed
+    private void B68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B68ActionPerformed
         T1.setText("Plomo");
         T2.setText("82");
         T3.setText("207.2 u");
         T4.setText("6");
         T5.setText("IVA");
-    }//GEN-LAST:event_PbActionPerformed
+    }//GEN-LAST:event_B68ActionPerformed
 
-    private void FlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FlActionPerformed
+    private void B86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B86ActionPerformed
         T1.setText("Flerovio");
         T2.setText("114");
         T3.setText("289 u");
         T4.setText("7");
         T5.setText("IVA");
-    }//GEN-LAST:event_FlActionPerformed
+    }//GEN-LAST:event_B86ActionPerformed
 
-    private void NActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NActionPerformed
+    private void B7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B7ActionPerformed
         T1.setText("Nitrógeno");
         T2.setText("7");
         T3.setText("14.00643 u");
         T4.setText("2");
         T5.setText("VA");
-    }//GEN-LAST:event_NActionPerformed
+    }//GEN-LAST:event_B7ActionPerformed
 
-    private void PActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PActionPerformed
+    private void B15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B15ActionPerformed
         T1.setText("Fósforo");
         T2.setText("15");
         T3.setText("Arsénico u");
         T4.setText("3");
         T5.setText("VA");
-    }//GEN-LAST:event_PActionPerformed
+    }//GEN-LAST:event_B15ActionPerformed
 
-    private void AsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AsActionPerformed
+    private void B33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B33ActionPerformed
         T1.setText("Arsénico");
         T2.setText("33");
         T3.setText("74.921595 u");
         T4.setText("4");
         T5.setText("VA");
-    }//GEN-LAST:event_AsActionPerformed
+    }//GEN-LAST:event_B33ActionPerformed
 
-    private void SbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SbActionPerformed
+    private void B51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B51ActionPerformed
         T1.setText("Antimonio");
         T2.setText("51");
         T3.setText("121.760 u");
         T4.setText("5");
         T5.setText("VA");
-    }//GEN-LAST:event_SbActionPerformed
+    }//GEN-LAST:event_B51ActionPerformed
 
-    private void BiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BiActionPerformed
+    private void B69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B69ActionPerformed
         T1.setText("Bismuto");
         T2.setText("83");
         T3.setText("208.9804 u");
         T4.setText("6");
         T5.setText("VA");
-    }//GEN-LAST:event_BiActionPerformed
+    }//GEN-LAST:event_B69ActionPerformed
 
-    private void McActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_McActionPerformed
+    private void B87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B87ActionPerformed
         T1.setText("Moscovium");
         T2.setText("115");
         T3.setText("288 u");
         T4.setText("2");
         T5.setText("VA");
-    }//GEN-LAST:event_McActionPerformed
+    }//GEN-LAST:event_B87ActionPerformed
 
-    private void OActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OActionPerformed
+    private void B8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B8ActionPerformed
         T1.setText("Oxígeno");
         T2.setText("8");
         T3.setText("15.999 u");
         T4.setText("2");
         T5.setText("VIA");
-    }//GEN-LAST:event_OActionPerformed
+    }//GEN-LAST:event_B8ActionPerformed
 
-    private void SActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SActionPerformed
+    private void B16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B16ActionPerformed
         T1.setText("Azufre");
         T2.setText("16");
         T3.setText("32.059 u");
         T4.setText("3");
         T5.setText("VIA");
-    }//GEN-LAST:event_SActionPerformed
+    }//GEN-LAST:event_B16ActionPerformed
 
-    private void SeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SeActionPerformed
+    private void B34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B34ActionPerformed
         T1.setText("Selenio");
         T2.setText("34");
         T3.setText("78.971 u");
         T4.setText("4");
         T5.setText("VIA");
-    }//GEN-LAST:event_SeActionPerformed
+    }//GEN-LAST:event_B34ActionPerformed
 
-    private void TeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TeActionPerformed
+    private void B52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B52ActionPerformed
         T1.setText("Telurio");
         T2.setText("52");
         T3.setText("127.60 u");
         T4.setText("5");
         T5.setText("VIA");
-    }//GEN-LAST:event_TeActionPerformed
+    }//GEN-LAST:event_B52ActionPerformed
 
-    private void PoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PoActionPerformed
+    private void B70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B70ActionPerformed
         T1.setText("Polonio");
         T2.setText("84");
         T3.setText("209 u");
         T4.setText("6");
         T5.setText("VIA");
-    }//GEN-LAST:event_PoActionPerformed
+    }//GEN-LAST:event_B70ActionPerformed
 
-    private void LvActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LvActionPerformed
+    private void B88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B88ActionPerformed
         T1.setText("Livermorio");
         T2.setText("116");
         T3.setText("293 u");
         T4.setText("7");
         T5.setText("VIA");
-    }//GEN-LAST:event_LvActionPerformed
+    }//GEN-LAST:event_B88ActionPerformed
 
-    private void ClActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ClActionPerformed
+    private void B17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B17ActionPerformed
         T1.setText("Cloro");
         T2.setText("17");
         T3.setText("35.446 u");
         T4.setText("3");
         T5.setText("VIIA");
-    }//GEN-LAST:event_ClActionPerformed
+    }//GEN-LAST:event_B17ActionPerformed
 
-    private void BrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BrActionPerformed
+    private void B35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B35ActionPerformed
         T1.setText("Bromo");
         T2.setText("35");
         T3.setText("79.904 u");
         T4.setText("4");
         T5.setText("VIIA");
-    }//GEN-LAST:event_BrActionPerformed
+    }//GEN-LAST:event_B35ActionPerformed
 
-    private void IActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IActionPerformed
+    private void B53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B53ActionPerformed
         T1.setText("Yodo");
         T2.setText("53");
         T3.setText("126.90447 u");
         T4.setText("5");
         T5.setText("VIIA");
-    }//GEN-LAST:event_IActionPerformed
+    }//GEN-LAST:event_B53ActionPerformed
 
-    private void AtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AtActionPerformed
+    private void B71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B71ActionPerformed
         T1.setText("Astato");
         T2.setText("85");
         T3.setText("210 u");
         T4.setText("6");
         T5.setText("VIIA");
-    }//GEN-LAST:event_AtActionPerformed
+    }//GEN-LAST:event_B71ActionPerformed
 
-    private void TsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TsActionPerformed
+    private void B89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B89ActionPerformed
         T1.setText("Tennessine");
         T2.setText("117");
         T3.setText("294 u");
         T4.setText("7");
         T5.setText("VIIA");
-    }//GEN-LAST:event_TsActionPerformed
+    }//GEN-LAST:event_B89ActionPerformed
 
-    private void HeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HeActionPerformed
+    private void B2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B2ActionPerformed
         T1.setText("Helio");
         T2.setText("2");
         T3.setText("4.002602 u");
         T4.setText("1");
         T5.setText("VIIIA");
-    }//GEN-LAST:event_HeActionPerformed
+    }//GEN-LAST:event_B2ActionPerformed
 
-    private void NeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NeActionPerformed
+    private void B10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B10ActionPerformed
         T1.setText("Neón");
         T2.setText("10");
         T3.setText("20.1797 u");
         T4.setText("2");
         T5.setText("VIIIA");
-    }//GEN-LAST:event_NeActionPerformed
+    }//GEN-LAST:event_B10ActionPerformed
 
-    private void ArActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ArActionPerformed
+    private void B18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B18ActionPerformed
         T1.setText("Argón");
         T2.setText("18");
         T3.setText("39.948 u");
         T4.setText("3");
         T5.setText("VIIIA");
-    }//GEN-LAST:event_ArActionPerformed
+    }//GEN-LAST:event_B18ActionPerformed
 
-    private void KrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KrActionPerformed
+    private void B36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B36ActionPerformed
         T1.setText("Kriptón");
         T2.setText("36");
         T3.setText("83.798 u");
         T4.setText("4");
         T5.setText("VIIIA");
-    }//GEN-LAST:event_KrActionPerformed
+    }//GEN-LAST:event_B36ActionPerformed
 
-    private void XeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_XeActionPerformed
+    private void B54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B54ActionPerformed
         T1.setText("Xenón");
         T2.setText("54");
         T3.setText("131.293 u");
         T4.setText("5");
         T5.setText("VIIIA");
-    }//GEN-LAST:event_XeActionPerformed
+    }//GEN-LAST:event_B54ActionPerformed
 
-    private void RnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RnActionPerformed
+    private void B72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B72ActionPerformed
         T1.setText("Radón");
         T2.setText("86");
         T3.setText("222 u");
         T4.setText("6");
         T5.setText("VIIIA");
-    }//GEN-LAST:event_RnActionPerformed
+    }//GEN-LAST:event_B72ActionPerformed
 
-    private void OgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OgActionPerformed
+    private void B90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B90ActionPerformed
         T1.setText("Oganesson");
         T2.setText("118");
         T3.setText("294 u");
         T4.setText("7");
         T5.setText("VIIIA");
-    }//GEN-LAST:event_OgActionPerformed
+    }//GEN-LAST:event_B90ActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        H.setVisible(true);
-        He.setVisible(true);
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
-
-    private void F1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F1ActionPerformed
+    private void B9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B9ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_F1ActionPerformed
+    }//GEN-LAST:event_B9ActionPerformed
 
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        Li.setVisible(true);
-        Be.setVisible(true);
-        B.setVisible(true);
-        C.setVisible(true);
-        N.setVisible(true);
-        O.setVisible(true);
-        F1.setVisible(true);
-        Ne.setVisible(true);
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
-
-    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-        K.setVisible(true);
-        Ca.setVisible(true);
-        Sc.setVisible(true);
-        Ti.setVisible(true);
-        V.setVisible(true);
-        Cr.setVisible(true);
-        Mn.setVisible(true);
-        Fe.setVisible(true);
-        Co.setVisible(true);
-        Ni.setVisible(true);
-        Cu.setVisible(true);
-        Zn.setVisible(true);
-        Ga.setVisible(true);
-        Ge.setVisible(true);
-        As.setVisible(true);
-        Se.setVisible(true);
-        Br.setVisible(true);
-        Kr.setVisible(true);
-    }//GEN-LAST:event_jMenuItem4ActionPerformed
-
-    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        Na.setVisible(true);
-        Mg.setVisible(true);
-        Al.setVisible(true);
-        Si.setVisible(true);
-        P.setVisible(true);
-        S.setVisible(true);
-        Cl.setVisible(true);
-        Ar.setVisible(true);
-    }//GEN-LAST:event_jMenuItem3ActionPerformed
-
-    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        Rb.setVisible(true);
-        Sr.setVisible(true);
-        Y.setVisible(true);
-        Zr.setVisible(true);
-        Nb.setVisible(true);
-        Mo.setVisible(true);
-        Tc.setVisible(true);
-        Ru.setVisible(true);
-        Rh.setVisible(true);
-        Pd.setVisible(true);
-        Ag.setVisible(true);
-        Cd.setVisible(true);
-        In.setVisible(true);
-        Sn.setVisible(true);
-        Sb.setVisible(true);
-        Te.setVisible(true);
-        I.setVisible(true);
-        Xe.setVisible(true);
-    }//GEN-LAST:event_jMenuItem5ActionPerformed
-
-    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
-        Cs.setVisible(true);
-        Ba.setVisible(true);
-        SL.setVisible(true);
-        Hf.setVisible(true);
-        Ta.setVisible(true);
-        W.setVisible(true);
-        Re.setVisible(true);
-        Os.setVisible(true);
-        Ir.setVisible(true);
-        Pt.setVisible(true);
-        Au.setVisible(true);
-        Hg.setVisible(true);
-        Tl.setVisible(true);
-        Pb.setVisible(true);
-        Bi.setVisible(true);
-        Po.setVisible(true);
-        At.setVisible(true);
-        Rn.setVisible(true);
-    }//GEN-LAST:event_jMenuItem6ActionPerformed
-
-    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
-        Fr.setVisible(true);
-        Ra.setVisible(true);
-        SA.setVisible(true);
-        Rf.setVisible(true);
-        Db.setVisible(true);
-        Sg.setVisible(true);
-        Bh.setVisible(true);
-        Hs.setVisible(true);
-        Mt.setVisible(true);
-        Ds.setVisible(true);
-        Rg.setVisible(true);
-        Cn.setVisible(true);
-        Nh.setVisible(true);
-        Fl.setVisible(true);
-        Mc.setVisible(true);
-        Lv.setVisible(true);
-        Ts.setVisible(true);
-        Og.setVisible(true);        
-    }//GEN-LAST:event_jMenuItem7ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        H.setVisible(true);
-        He.setVisible(true);
-        Li.setVisible(true);
-        Be.setVisible(true);
-        B.setVisible(true);
-        C.setVisible(true);
-        N.setVisible(true);
-        O.setVisible(true);
-        F1.setVisible(true);
-        Ne.setVisible(true);
-        Na.setVisible(true);
-        Mg.setVisible(true);
-        Al.setVisible(true);
-        Si.setVisible(true);
-        P.setVisible(true);
-        S.setVisible(true);
-        Cl.setVisible(true);
-        Ar.setVisible(true);
-        K.setVisible(true);
-        Ca.setVisible(true);
-        Sc.setVisible(true);
-        Ti.setVisible(true);
-        V.setVisible(true);
-        Cr.setVisible(true);
-        Mn.setVisible(true);
-        Fe.setVisible(true);
-        Co.setVisible(true);
-        Ni.setVisible(true);
-        Cu.setVisible(true);
-        Zn.setVisible(true);
-        Ga.setVisible(true);
-        Ge.setVisible(true);
-        As.setVisible(true);
-        Se.setVisible(true);
-        Br.setVisible(true);
-        Kr.setVisible(true);
-        Rb.setVisible(true);
-        Sr.setVisible(true);
-        Y.setVisible(true);
-        Zr.setVisible(true);
-        Nb.setVisible(true);
-        Mo.setVisible(true);
-        Tc.setVisible(true);
-        Ru.setVisible(true);
-        Rh.setVisible(true);
-        Pd.setVisible(true);
-        Ag.setVisible(true);
-        Cd.setVisible(true);
-        In.setVisible(true);
-        Sn.setVisible(true);
-        Sb.setVisible(true);
-        Te.setVisible(true);
-        I.setVisible(true);
-        Xe.setVisible(true);
-        Cs.setVisible(true);
-        Ba.setVisible(true);
-        SL.setVisible(true);
-        Hf.setVisible(true);
-        Ta.setVisible(true);
-        W.setVisible(true);
-        Re.setVisible(true);
-        Os.setVisible(true);
-        Ir.setVisible(true);
-        Pt.setVisible(true);
-        Au.setVisible(true);
-        Hg.setVisible(true);
-        Tl.setVisible(true);
-        Pb.setVisible(true);
-        Bi.setVisible(true);
-        Po.setVisible(true);
-        At.setVisible(true);
-        Rn.setVisible(true);
-        Fr.setVisible(true);
-        Ra.setVisible(true);
-        SA.setVisible(true);
-        Rf.setVisible(true);
-        Db.setVisible(true);
-        Sg.setVisible(true);
-        Bh.setVisible(true);
-        Hs.setVisible(true);
-        Mt.setVisible(true);
-        Ds.setVisible(true);
-        Rg.setVisible(true);
-        Cn.setVisible(true);
-        Nh.setVisible(true);
-        Fl.setVisible(true);
-        Mc.setVisible(true);
-        Lv.setVisible(true);
-        Ts.setVisible(true);
-        Og.setVisible(true);
-    }//GEN-LAST:event_jButton3ActionPerformed
+    private void T1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_T1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_T1ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        H.setVisible(false);
-        He.setVisible(false);
-        Li.setVisible(false);
-        Be.setVisible(false);
-        B.setVisible(false);
-        C.setVisible(false);
-        N.setVisible(false);
-        O.setVisible(false);
-        F1.setVisible(false);
-        Ne.setVisible(false);
-        Na.setVisible(false);
-        Mg.setVisible(false);
-        Al.setVisible(false);
-        Si.setVisible(false);
-        P.setVisible(false);
-        S.setVisible(false);
-        Cl.setVisible(false);
-        Ar.setVisible(false);
-        K.setVisible(false);
-        Ca.setVisible(false);
-        Sc.setVisible(false);
-        Ti.setVisible(false);
-        V.setVisible(false);
-        Cr.setVisible(false);
-        Mn.setVisible(false);
-        Fe.setVisible(false);
-        Co.setVisible(false);
-        Ni.setVisible(false);
-        Cu.setVisible(false);
-        Zn.setVisible(false);
-        Ga.setVisible(false);
-        Ge.setVisible(false);
-        As.setVisible(false);
-        Se.setVisible(false);
-        Br.setVisible(false);
-        Kr.setVisible(false);
-        Rb.setVisible(false);
-        Sr.setVisible(false);
-        Y.setVisible(false);
-        Zr.setVisible(false);
-        Nb.setVisible(false);
-        Mo.setVisible(false);
-        Tc.setVisible(false);
-        Ru.setVisible(false);
-        Rh.setVisible(false);
-        Pd.setVisible(false);
-        Ag.setVisible(false);
-        Cd.setVisible(false);
-        In.setVisible(false);
-        Sn.setVisible(false);
-        Sb.setVisible(false);
-        Te.setVisible(false);
-        I.setVisible(false);
-        Xe.setVisible(false);
-        Cs.setVisible(false);
-        Ba.setVisible(false);
-        SL.setVisible(false);
-        Hf.setVisible(false);
-        Ta.setVisible(false);
-        W.setVisible(false);
-        Re.setVisible(false);
-        Os.setVisible(false);
-        Ir.setVisible(false);
-        Pt.setVisible(false);
-        Au.setVisible(false);
-        Hg.setVisible(false);
-        Tl.setVisible(false);
-        Pb.setVisible(false);
-        Bi.setVisible(false);
-        Po.setVisible(false);
-        At.setVisible(false);
-        Rn.setVisible(false);
-        Fr.setVisible(false);
-        Ra.setVisible(false);
-        SA.setVisible(false);
-        Rf.setVisible(false);
-        Db.setVisible(false);
-        Sg.setVisible(false);
-        Bh.setVisible(false);
-        Hs.setVisible(false);
-        Mt.setVisible(false);
-        Ds.setVisible(false);
-        Rg.setVisible(false);
-        Cn.setVisible(false);
-        Nh.setVisible(false);
-        Fl.setVisible(false);
-        Mc.setVisible(false);
-        Lv.setVisible(false);
-        Ts.setVisible(false);
-        Og.setVisible(false);
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+      
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
-        H.setVisible(true);
-        Li.setVisible(true);
-        Na.setVisible(true);
-        K.setVisible(true);
-        Rb.setVisible(true);
-        Cs.setVisible(true);
-        Fr.setVisible(true);
-    }//GEN-LAST:event_jMenuItem8ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        B1.setVisible(true);
+        B2.setVisible(true);
+        B3.setVisible(true);
+        B4.setVisible(true);
+        B5.setVisible(true);
+        B6.setVisible(true);
+        B7.setVisible(true);
+        B8.setVisible(true);
+        B9.setVisible(true);
+        B10.setVisible(true);
+        B11.setVisible(true);
+        B12.setVisible(true);
+        B13.setVisible(true);
+        B14.setVisible(true);
+        B15.setVisible(true);
+        B16.setVisible(true);
+        B17.setVisible(true);
+        B18.setVisible(true);
+        B19.setVisible(true);
+        B20.setVisible(true);
+        B21.setVisible(true);
+        B22.setVisible(true);
+        B23.setVisible(true);
+        B24.setVisible(true);
+        B25.setVisible(true);
+        B26.setVisible(true);
+        B27.setVisible(true);
+        B28.setVisible(true);
+        B29.setVisible(true);
+        B30.setVisible(true);
+        B31.setVisible(true);
+        B32.setVisible(true);
+        B33.setVisible(true);
+        B34.setVisible(true);
+        B35.setVisible(true);
+        B36.setVisible(true);
+        B37.setVisible(true);
+        B38.setVisible(true);
+        B39.setVisible(true);
+        B40.setVisible(true);
+        B41.setVisible(true);
+        B42.setVisible(true);
+        B43.setVisible(true);
+        B44.setVisible(true);
+        B45.setVisible(true);
+        B46.setVisible(true);
+        B47.setVisible(true);
+        B48.setVisible(true);
+        B49.setVisible(true);
+        B50.setVisible(true);
+        B51.setVisible(true);
+        B52.setVisible(true);
+        B53.setVisible(true);
+        B54.setVisible(true);
+        B55.setVisible(true);
+        B56.setVisible(true);
+        B57.setVisible(true);
+        B58.setVisible(true);
+        B59.setVisible(true);
+        B60.setVisible(true);
+        B61.setVisible(true);
+        B62.setVisible(true);
+        B63.setVisible(true);
+        B64.setVisible(true);
+        B65.setVisible(true);
+        B66.setVisible(true);
+        B67.setVisible(true);
+        B68.setVisible(true);
+        B69.setVisible(true);
+        B70.setVisible(true);
+        B71.setVisible(true);
+        B72.setVisible(true);
+        B73.setVisible(true);
+        B74.setVisible(true);
+        B75.setVisible(true);
+        B76.setVisible(true);
+        B77.setVisible(true);
+        B78.setVisible(true);
+        B79.setVisible(true);
+        B80.setVisible(true);
+        B81.setVisible(true);
+        B82.setVisible(true);
+        B83.setVisible(true);
+        B84.setVisible(true);
+        B85.setVisible(true);
+        B86.setVisible(true);
+        B87.setVisible(true);
+        B88.setVisible(true);
+        B89.setVisible(true);
+        B90.setVisible(true);
+        La.setVisible(true);
+        Ce.setVisible(true);
+        Pr.setVisible(true);
+        Nd.setVisible(true);
+        Pm.setVisible(true);
+        Sm.setVisible(true);
+        Eu.setVisible(true);
+        Gd.setVisible(true);
+        Tb.setVisible(true);
+        Dy.setVisible(true);
+        Ho.setVisible(true);
+        Er.setVisible(true);
+        Tm.setVisible(true);
+        Yb.setVisible(true);
+        Lu.setVisible(true);
+         Ac.setVisible(true);
+        Th.setVisible(true);
+        Pa.setVisible(true);
+        U.setVisible(true);
+        Np.setVisible(true);
+        Pu.setVisible(true);
+        Am.setVisible(true);
+        Cm.setVisible(true);
+        Bk.setVisible(true);
+        Cf.setVisible(true);
+        Es.setVisible(true);
+        Fm.setVisible(true);
+        Md.setVisible(true);
+        No.setVisible(true);
+        Lr.setVisible(true);
+   
+    }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
-        Be.setVisible(true);
-        Mg.setVisible(true);
-        Ca.setVisible(true);
-        Sr.setVisible(true);
-        Ba.setVisible(true);
-        Ra.setVisible(true);
-    }//GEN-LAST:event_jMenuItem9ActionPerformed
+    private void B1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B1ActionPerformed
+        T1.setText("Hidrógeno");
+        T2.setText("1");
+        T3.setText("1.00784 u");
+        T4.setText("1");
+        T5.setText("IA");        
+    }//GEN-LAST:event_B1ActionPerformed
 
-    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
-        Sc.setVisible(true);
-        Y.setVisible(true);
-        SL.setVisible(true);
-        SA.setVisible(true);
-    }//GEN-LAST:event_jMenuItem10ActionPerformed
+    private void P3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P3ActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(true);
+        B12.setVisible(true);
+        B13.setVisible(true);
+        B14.setVisible(true);
+        B15.setVisible(true);
+        B16.setVisible(true);
+        B17.setVisible(true);
+        B18.setVisible(true);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_P3ActionPerformed
 
-    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
-        Ti.setVisible(true);
-        Zr.setVisible(true);
-        Hf.setVisible(true);
-        Rf.setVisible(true);
-    }//GEN-LAST:event_jMenuItem11ActionPerformed
+    private void P2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P2ActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(true);
+        B4.setVisible(true);
+        B5.setVisible(true);
+        B6.setVisible(true);
+        B7.setVisible(true);
+        B8.setVisible(true);
+        B9.setVisible(true);
+        B10.setVisible(true);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_P2ActionPerformed
 
-    private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem12ActionPerformed
-        V.setVisible(true);
-        Nb.setVisible(true);
-        Ta.setVisible(true);
-        Db.setVisible(true);
-    }//GEN-LAST:event_jMenuItem12ActionPerformed
+    private void P4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P4ActionPerformed
+         B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(true);
+        B20.setVisible(true);
+        B21.setVisible(true);
+        B22.setVisible(true);
+        B23.setVisible(true);
+        B24.setVisible(true);
+        B25.setVisible(true);
+        B26.setVisible(true);
+        B27.setVisible(true);
+        B28.setVisible(true);
+        B29.setVisible(true);
+        B30.setVisible(true);
+        B31.setVisible(true);
+        B32.setVisible(true);
+        B33.setVisible(true);
+        B34.setVisible(true);
+        B35.setVisible(true);
+        B36.setVisible(true);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_P4ActionPerformed
+
+    private void P5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P5ActionPerformed
+         B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(true);
+        B38.setVisible(true);
+        B39.setVisible(true);
+        B40.setVisible(true);
+        B41.setVisible(true);
+        B42.setVisible(true);
+        B43.setVisible(true);
+        B44.setVisible(true);
+        B45.setVisible(true);
+        B46.setVisible(true);
+        B47.setVisible(true);
+        B48.setVisible(true);
+        B49.setVisible(true);
+        B50.setVisible(true);
+        B51.setVisible(true);
+        B52.setVisible(true);
+        B53.setVisible(true);
+        B54.setVisible(true);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_P5ActionPerformed
+
+    private void P6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P6ActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(true);
+        B56.setVisible(true);
+        B57.setVisible(true);
+        B58.setVisible(true);
+        B59.setVisible(true);
+        B60.setVisible(true);
+        B61.setVisible(true);
+        B62.setVisible(true);
+        B63.setVisible(true);
+        B64.setVisible(true);
+        B65.setVisible(true);
+        B66.setVisible(true);
+        B67.setVisible(true);
+        B68.setVisible(true);
+        B69.setVisible(true);
+        B70.setVisible(true);
+        B71.setVisible(true);
+        B72.setVisible(true);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        
+    }//GEN-LAST:event_P6ActionPerformed
+
+    private void P7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P7ActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(true);
+        B74.setVisible(true);
+        B75.setVisible(true);
+        B76.setVisible(true);
+        B77.setVisible(true);
+        B78.setVisible(true);
+        B79.setVisible(true);
+        B80.setVisible(true);
+        B81.setVisible(true);
+        B82.setVisible(true);
+        B83.setVisible(true);
+        B84.setVisible(true);
+        B85.setVisible(true);
+        B86.setVisible(true);
+        B87.setVisible(true);
+        B88.setVisible(true);
+        B89.setVisible(true);
+        B90.setVisible(true);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_P7ActionPerformed
+
+    private void P1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P1ActionPerformed
+        B1.setVisible(true);
+        B2.setVisible(true);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B72.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_P1ActionPerformed
+
+    private void IAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IAActionPerformed
+        B1.setVisible(true);
+        B3.setVisible(true);
+        B11.setVisible(true);
+        B19.setVisible(true);
+        B37.setVisible(true);
+        B55.setVisible(true);
+        B73.setVisible(true);
+        B2.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IAActionPerformed
+
+    private void IIAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IIAActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(true);
+        B12.setVisible(true);
+        B20.setVisible(true);
+        B38.setVisible(true);
+        B56.setVisible(true);
+        B74.setVisible(true);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IIAActionPerformed
+
+    private void IIIBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IIIBActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(true);
+        B39.setVisible(true);
+        B57.setVisible(true);
+        B75.setVisible(true);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IIIBActionPerformed
+
+    private void IVBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IVBActionPerformed
+         B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(true);
+        B40.setVisible(true);
+        B58.setVisible(true);
+        B76.setVisible(true);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IVBActionPerformed
+
+    private void VBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VBActionPerformed
+          B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(true);
+        B41.setVisible(true);
+        B59.setVisible(true);
+        B77.setVisible(true);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VBActionPerformed
+
+    private void VIBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VIBActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(true);
+        B42.setVisible(true);
+        B60.setVisible(true);
+        B78.setVisible(true);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VIBActionPerformed
+
+    private void VIIBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VIIBActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(true);
+        B43.setVisible(true);
+        B61.setVisible(true);
+        B79.setVisible(true);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VIIBActionPerformed
+
+    private void VIIIBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VIIIBActionPerformed
+         B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(true);
+        B27.setVisible(true);
+        B28.setVisible(true);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(true);
+        B45.setVisible(true);
+        B46.setVisible(true);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(true);
+        B63.setVisible(true);
+        B64.setVisible(true);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(true);
+        B81.setVisible(true);
+        B82.setVisible(true);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VIIIBActionPerformed
+
+    private void IBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IBActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(true);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(true);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(true);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(true);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IBActionPerformed
+
+    private void IIBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IIBActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(true);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(true);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(true);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(true);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IIBActionPerformed
+
+    private void IVAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IVAActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(true);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(true);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(true);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(true);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(true);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(true);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IVAActionPerformed
+
+    private void VAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VAActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(true);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(true);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(true);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(true);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(true);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(true);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VAActionPerformed
+
+    private void VIAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VIAActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(true);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(true);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(true);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(true);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(true);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(true);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VIAActionPerformed
+
+    private void VIIAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VIIAActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(true);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(true);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(true);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(true);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(true);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(true);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VIIAActionPerformed
+
+    private void VIIIAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VIIIAActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(true);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(true);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(true);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(true);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(true);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(true);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_VIIIAActionPerformed
+
+    private void LaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LaActionPerformed
+        T1.setText("Lantano");
+        T2.setText("57");
+        T3.setText("138.90547 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_LaActionPerformed
+
+    private void CeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CeActionPerformed
+        T1.setText("Cerio");
+        T2.setText("58");
+        T3.setText("140.116 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_CeActionPerformed
+
+    private void PrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PrActionPerformed
+        T1.setText("Praseodimio");
+        T2.setText("59");
+        T3.setText("140.90766 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_PrActionPerformed
+
+    private void NdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NdActionPerformed
+        T1.setText("Neodimio");
+        T2.setText("60");
+        T3.setText("144.907666 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_NdActionPerformed
+
+    private void PmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PmActionPerformed
+        T1.setText("Prometio");
+        T2.setText("61");
+        T3.setText("145 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_PmActionPerformed
+
+    private void SmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmActionPerformed
+        T1.setText("Samario");
+        T2.setText("62");
+        T3.setText("150.36 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_SmActionPerformed
+
+    private void EuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EuActionPerformed
+        T1.setText("Europio");
+        T2.setText("63");
+        T3.setText("151.964 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_EuActionPerformed
+
+    private void GdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GdActionPerformed
+        T1.setText("Gadolinio");
+        T2.setText("64");
+        T3.setText("157.25 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_GdActionPerformed
+
+    private void TbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TbActionPerformed
+        T1.setText("Terbio");
+        T2.setText("65");
+        T3.setText("158.92535 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_TbActionPerformed
+
+    private void DyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DyActionPerformed
+        T1.setText("Disprosio");
+        T2.setText("66");
+        T3.setText("162.500 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_DyActionPerformed
+
+    private void HoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HoActionPerformed
+        T1.setText("Holmio");
+        T2.setText("67");
+        T3.setText("164.93033 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_HoActionPerformed
+
+    private void ErActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ErActionPerformed
+        T1.setText("Erbio");
+        T2.setText("68");
+        T3.setText("167.259 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_ErActionPerformed
+
+    private void TmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TmActionPerformed
+        T1.setText("Tulio");
+        T2.setText("69");
+        T3.setText("168.93422 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_TmActionPerformed
+
+    private void YbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_YbActionPerformed
+        T1.setText("Iterbio");
+        T2.setText("70");
+        T3.setText("173.045 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_YbActionPerformed
+
+    private void LuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LuActionPerformed
+        T1.setText("Lutecio");
+        T2.setText("71");
+        T3.setText("174.9668 u");
+        T4.setText("6");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_LuActionPerformed
+
+    private void AcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AcActionPerformed
+        T1.setText("Actinio");
+        T2.setText("89");
+        T3.setText("227 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_AcActionPerformed
+
+    private void ThActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ThActionPerformed
+        T1.setText("Torio");
+        T2.setText("90");
+        T3.setText("232.0377 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_ThActionPerformed
+
+    private void PaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PaActionPerformed
+        T1.setText("Protactinio");
+        T2.setText("91");
+        T3.setText("231.03588 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_PaActionPerformed
+
+    private void UActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UActionPerformed
+        T1.setText("Uranio");
+        T2.setText("92");
+        T3.setText("238.02891 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_UActionPerformed
+
+    private void NpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NpActionPerformed
+        T1.setText("Neptunio");
+        T2.setText("93");
+        T3.setText("237 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_NpActionPerformed
+
+    private void PuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PuActionPerformed
+        T1.setText("Plutonio");
+        T2.setText("94");
+        T3.setText("244 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_PuActionPerformed
+
+    private void AmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AmActionPerformed
+        T1.setText("Amercio");
+        T2.setText("95");
+        T3.setText("243 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_AmActionPerformed
+
+    private void CmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CmActionPerformed
+        T1.setText("Curio");
+        T2.setText("96");
+        T3.setText("247 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_CmActionPerformed
+
+    private void BkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BkActionPerformed
+        T1.setText("Berkelio");
+        T2.setText("97");
+        T3.setText("247 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_BkActionPerformed
+
+    private void CfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CfActionPerformed
+        T1.setText("Californio");
+        T2.setText("98");
+        T3.setText("251 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_CfActionPerformed
+
+    private void EsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EsActionPerformed
+        T1.setText("Einstenio");
+        T2.setText("99");
+        T3.setText("252 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_EsActionPerformed
+
+    private void FmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FmActionPerformed
+        T1.setText("Fermio");
+        T2.setText("100");
+        T3.setText("257 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_FmActionPerformed
+
+    private void MdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MdActionPerformed
+        T1.setText("Mendelevio");
+        T2.setText("101");
+        T3.setText("258 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_MdActionPerformed
+
+    private void NoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoActionPerformed
+        T1.setText("Nobelio");
+        T2.setText("102");
+        T3.setText("259 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_NoActionPerformed
+
+    private void LrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LrActionPerformed
+        T1.setText("Laurencio");
+        T2.setText("103");
+        T3.setText("262 u");
+        T4.setText("7");
+        T5.setText("IIIB");
+    }//GEN-LAST:event_LrActionPerformed
+
+    private void P8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_P8ActionPerformed
+        Ac.setVisible(true);
+        Th.setVisible(true);
+        Pa.setVisible(true);
+        U.setVisible(true);
+        Np.setVisible(true);
+        Pu.setVisible(true);
+        Am.setVisible(true);
+        Cm.setVisible(true);
+        Bk.setVisible(true);
+        Cf.setVisible(true);
+        Es.setVisible(true);
+        Fm.setVisible(true);
+        Md.setVisible(true);
+        No.setVisible(true);
+        Lr.setVisible(true);
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        
+        
+    }//GEN-LAST:event_P8ActionPerformed
+
+    private void SLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SLActionPerformed
+        La.setVisible(true);
+        Ce.setVisible(true);
+        Pr.setVisible(true);
+        Nd.setVisible(true);
+        Pm.setVisible(true);
+        Sm.setVisible(true);
+        Eu.setVisible(true);
+        Gd.setVisible(true);
+        Tb.setVisible(true);
+        Dy.setVisible(true);
+        Ho.setVisible(true);
+        Er.setVisible(true);
+        Tm.setVisible(true);
+        Yb.setVisible(true);
+        Lu.setVisible(true);
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+        
+    }//GEN-LAST:event_SLActionPerformed
+
+    private void AlcalinosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AlcalinosActionPerformed
+        B1.setVisible(false);
+        B3.setVisible(true);
+        B11.setVisible(true);
+        B19.setVisible(true);
+        B37.setVisible(true);
+        B55.setVisible(true);
+        B73.setVisible(true);
+        B2.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+        
+        
+        
+    }//GEN-LAST:event_AlcalinosActionPerformed
+
+    private void AlcalinoterreosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AlcalinoterreosActionPerformed
+     B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(true);
+        B12.setVisible(true);
+        B20.setVisible(true);
+        B38.setVisible(true);
+        B56.setVisible(true);
+        B74.setVisible(true);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);        
+    }//GEN-LAST:event_AlcalinoterreosActionPerformed
+
+    private void HalogenosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HalogenosActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(true);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(true);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(true);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(true);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(true);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(true);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_HalogenosActionPerformed
+
+    private void GasesnoblesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GasesnoblesActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(true);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(true);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(true);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(true);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(true);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(true);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_GasesnoblesActionPerformed
+
+    private void MetaloidesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MetaloidesActionPerformed
+        B5.setVisible(true);
+        B14.setVisible(true);
+        B32.setVisible(true);
+        B33.setVisible(true);
+        B51.setVisible(true);
+        B52.setVisible(true);
+        B70.setVisible(true);
+         B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_MetaloidesActionPerformed
+
+    private void MetalesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MetalesActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(true);
+        B4.setVisible(true);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(true);
+        B12.setVisible(true);
+        B13.setVisible(true);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(true);
+        B20.setVisible(true);
+        B21.setVisible(true);
+        B22.setVisible(true);
+        B23.setVisible(true);
+        B24.setVisible(true);
+        B25.setVisible(true);
+        B26.setVisible(true);
+        B27.setVisible(true);
+        B28.setVisible(true);
+        B29.setVisible(true);
+        B30.setVisible(true);
+        B31.setVisible(true);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(true);
+        B38.setVisible(true);
+        B39.setVisible(true);
+        B40.setVisible(true);
+        B41.setVisible(true);
+        B42.setVisible(true);
+        B43.setVisible(true);
+        B44.setVisible(true);
+        B45.setVisible(true);
+        B46.setVisible(true);
+        B47.setVisible(true);
+        B48.setVisible(true);
+        B49.setVisible(true);
+        B50.setVisible(true);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(true);
+        B56.setVisible(true);
+        B57.setVisible(true);
+        B58.setVisible(true);
+        B59.setVisible(true);
+        B60.setVisible(true);
+        B61.setVisible(true);
+        B62.setVisible(true);
+        B63.setVisible(true);
+        B64.setVisible(true);
+        B65.setVisible(true);
+        B66.setVisible(true);
+        B67.setVisible(true);
+        B68.setVisible(true);
+        B69.setVisible(true);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(true);
+        B74.setVisible(true);
+        B75.setVisible(true);
+        B76.setVisible(true);
+        B77.setVisible(true);
+        B78.setVisible(true);
+        B79.setVisible(true);
+        B80.setVisible(true);
+        B81.setVisible(true);
+        B82.setVisible(true);
+        B83.setVisible(true);
+        B84.setVisible(true);
+        B85.setVisible(true);
+        B86.setVisible(true);
+        B87.setVisible(true);
+        B88.setVisible(true);
+        B89.setVisible(true);
+        B90.setVisible(true);
+        Ac.setVisible(true);
+        Th.setVisible(true);
+        Pa.setVisible(true);
+        U.setVisible(true);
+        Np.setVisible(true);
+        Pu.setVisible(true);
+        Am.setVisible(true);
+        Cm.setVisible(true);
+        Bk.setVisible(true);
+        Cf.setVisible(true);
+        Es.setVisible(true);
+        Fm.setVisible(true);
+        Md.setVisible(true);
+        No.setVisible(true);
+        Lr.setVisible(true);
+        La.setVisible(true);
+        Ce.setVisible(true);
+        Pr.setVisible(true);
+        Nd.setVisible(true);
+        Pm.setVisible(true);
+        Sm.setVisible(true);
+        Eu.setVisible(true);
+        Gd.setVisible(true);
+        Tb.setVisible(true);
+        Dy.setVisible(true);
+        Ho.setVisible(true);
+        Er.setVisible(true);
+        Tm.setVisible(true);
+        Yb.setVisible(true);
+        Lu.setVisible(true);
+    }//GEN-LAST:event_MetalesActionPerformed
+
+    private void NometalesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NometalesActionPerformed
+        B1.setVisible(true);
+        B2.setVisible(true);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(true);
+        B7.setVisible(true);
+        B8.setVisible(true);
+        B9.setVisible(true);
+        B10.setVisible(true);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(true);
+        B16.setVisible(true);
+        B17.setVisible(true);
+        B18.setVisible(true);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(true);
+        B35.setVisible(true);
+        B36.setVisible(true);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(true);
+        B54.setVisible(true);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(true);
+        B72.setVisible(true);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_NometalesActionPerformed
+
+    private void MetalesdetransicionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MetalesdetransicionActionPerformed
+       B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(false);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(false);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(true);
+        B39.setVisible(true);
+        B57.setVisible(false);
+        B75.setVisible(false);
+        B22.setVisible(true);
+        B23.setVisible(true);
+        B24.setVisible(true);
+        B25.setVisible(true);
+        B26.setVisible(true);
+        B27.setVisible(true);
+        B28.setVisible(true);
+        B29.setVisible(true);
+        B30.setVisible(true);
+        B31.setVisible(false);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B40.setVisible(true);
+        B41.setVisible(true);
+        B42.setVisible(true);
+        B43.setVisible(true);
+        B44.setVisible(true);
+        B45.setVisible(true);
+        B46.setVisible(true);
+        B47.setVisible(true);
+        B48.setVisible(true);
+        B49.setVisible(false);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B58.setVisible(true);
+        B59.setVisible(true);
+        B60.setVisible(true);
+        B61.setVisible(true);
+        B62.setVisible(true);
+        B63.setVisible(true);
+        B64.setVisible(true);
+        B65.setVisible(true);
+        B66.setVisible(true);
+        B67.setVisible(false);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B76.setVisible(true);
+        B77.setVisible(true);
+        B78.setVisible(true);
+        B79.setVisible(true);
+        B80.setVisible(true);
+        B81.setVisible(true);
+        B82.setVisible(true);
+        B83.setVisible(true);
+        B84.setVisible(true);
+        B85.setVisible(false);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);      
+    }//GEN-LAST:event_MetalesdetransicionActionPerformed
+
+    private void IIIAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IIIAActionPerformed
+        B1.setVisible(false);
+        B2.setVisible(false);
+        B3.setVisible(false);
+        B4.setVisible(false);
+        B5.setVisible(true);
+        B6.setVisible(false);
+        B7.setVisible(false);
+        B8.setVisible(false);
+        B9.setVisible(false);
+        B10.setVisible(false);
+        B11.setVisible(false);
+        B12.setVisible(false);
+        B13.setVisible(true);
+        B14.setVisible(false);
+        B15.setVisible(false);
+        B16.setVisible(false);
+        B17.setVisible(false);
+        B18.setVisible(false);
+        B19.setVisible(false);
+        B20.setVisible(false);
+        B21.setVisible(false);
+        B22.setVisible(false);
+        B23.setVisible(false);
+        B24.setVisible(false);
+        B25.setVisible(false);
+        B26.setVisible(false);
+        B27.setVisible(false);
+        B28.setVisible(false);
+        B29.setVisible(false);
+        B30.setVisible(false);
+        B31.setVisible(true);
+        B32.setVisible(false);
+        B33.setVisible(false);
+        B34.setVisible(false);
+        B35.setVisible(false);
+        B36.setVisible(false);
+        B37.setVisible(false);
+        B38.setVisible(false);
+        B39.setVisible(false);
+        B40.setVisible(false);
+        B41.setVisible(false);
+        B42.setVisible(false);
+        B43.setVisible(false);
+        B44.setVisible(false);
+        B45.setVisible(false);
+        B46.setVisible(false);
+        B47.setVisible(false);
+        B48.setVisible(false);
+        B49.setVisible(true);
+        B50.setVisible(false);
+        B51.setVisible(false);
+        B52.setVisible(false);
+        B53.setVisible(false);
+        B54.setVisible(false);
+        B55.setVisible(false);
+        B56.setVisible(false);
+        B57.setVisible(false);
+        B58.setVisible(false);
+        B59.setVisible(false);
+        B60.setVisible(false);
+        B61.setVisible(false);
+        B62.setVisible(false);
+        B63.setVisible(false);
+        B64.setVisible(false);
+        B65.setVisible(false);
+        B66.setVisible(false);
+        B67.setVisible(true);
+        B68.setVisible(false);
+        B69.setVisible(false);
+        B70.setVisible(false);
+        B71.setVisible(false);
+        B72.setVisible(false);
+        B73.setVisible(false);
+        B74.setVisible(false);
+        B75.setVisible(false);
+        B76.setVisible(false);
+        B77.setVisible(false);
+        B78.setVisible(false);
+        B79.setVisible(false);
+        B80.setVisible(false);
+        B81.setVisible(false);
+        B82.setVisible(false);
+        B83.setVisible(false);
+        B84.setVisible(false);
+        B85.setVisible(true);
+        B86.setVisible(false);
+        B87.setVisible(false);
+        B88.setVisible(false);
+        B89.setVisible(false);
+        B90.setVisible(false);
+        La.setVisible(false);
+        Ce.setVisible(false);
+        Pr.setVisible(false);
+        Nd.setVisible(false);
+        Pm.setVisible(false);
+        Sm.setVisible(false);
+        Eu.setVisible(false);
+        Gd.setVisible(false);
+        Tb.setVisible(false);
+        Dy.setVisible(false);
+        Ho.setVisible(false);
+        Er.setVisible(false);
+        Tm.setVisible(false);
+        Yb.setVisible(false);
+        Lu.setVisible(false);
+        Ac.setVisible(false);
+        Th.setVisible(false);
+        Pa.setVisible(false);
+        U.setVisible(false);
+        Np.setVisible(false);
+        Pu.setVisible(false);
+        Am.setVisible(false);
+        Cm.setVisible(false);
+        Bk.setVisible(false);
+        Cf.setVisible(false);
+        Es.setVisible(false);
+        Fm.setVisible(false);
+        Md.setVisible(false);
+        No.setVisible(false);
+        Lr.setVisible(false);
+    }//GEN-LAST:event_IIIAActionPerformed
 
   
     public static void main(String args[]) {
@@ -2679,101 +8429,164 @@ public class Tabla extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Ag;
-    private javax.swing.JButton Al;
-    private javax.swing.JButton Ar;
-    private javax.swing.JButton As;
-    private javax.swing.JButton At;
-    private javax.swing.JButton Au;
-    private javax.swing.JButton B;
-    private javax.swing.JButton Ba;
-    private javax.swing.JButton Be;
-    private javax.swing.JButton Bh;
-    private javax.swing.JButton Bi;
-    private javax.swing.JButton Br;
-    private javax.swing.JButton C;
-    private javax.swing.JButton Ca;
-    private javax.swing.JButton Cd;
-    private javax.swing.JButton Cl;
-    private javax.swing.JButton Cn;
-    private javax.swing.JButton Co;
-    private javax.swing.JButton Cr;
-    private javax.swing.JButton Cs;
-    private javax.swing.JButton Cu;
-    private javax.swing.JButton Db;
-    private javax.swing.JButton Ds;
-    private javax.swing.JButton F1;
-    private javax.swing.JButton Fe;
-    private javax.swing.JButton Fl;
-    private javax.swing.JButton Fr;
-    private javax.swing.JButton Ga;
-    private javax.swing.JButton Ge;
-    private javax.swing.JButton H;
-    private javax.swing.JButton He;
-    private javax.swing.JButton Hf;
-    private javax.swing.JButton Hg;
-    private javax.swing.JButton Hs;
-    private javax.swing.JButton I;
-    private javax.swing.JButton In;
-    private javax.swing.JButton Ir;
-    private javax.swing.JButton K;
-    private javax.swing.JButton Kr;
-    private javax.swing.JButton Li;
-    private javax.swing.JButton Lv;
-    private javax.swing.JButton Mc;
-    private javax.swing.JButton Mg;
-    private javax.swing.JButton Mn;
-    private javax.swing.JButton Mo;
-    private javax.swing.JButton Mt;
-    private javax.swing.JButton N;
-    private javax.swing.JButton Na;
-    private javax.swing.JButton Nb;
-    private javax.swing.JButton Ne;
-    private javax.swing.JButton Nh;
-    private javax.swing.JButton Ni;
-    private javax.swing.JButton O;
-    private javax.swing.JButton Og;
-    private javax.swing.JButton Os;
-    private javax.swing.JButton P;
-    private javax.swing.JButton Pb;
-    private javax.swing.JButton Pd;
-    private javax.swing.JButton Po;
-    private javax.swing.JButton Pt;
-    private javax.swing.JButton Ra;
-    private javax.swing.JButton Rb;
-    private javax.swing.JButton Re;
-    private javax.swing.JButton Rf;
-    private javax.swing.JButton Rg;
-    private javax.swing.JButton Rh;
-    private javax.swing.JButton Rn;
-    private javax.swing.JButton Ru;
-    private javax.swing.JButton S;
-    private javax.swing.JButton SA;
+    private javax.swing.JButton Ac;
+    private javax.swing.JButton Alcalinos;
+    private javax.swing.JButton Alcalinoterreos;
+    private javax.swing.JButton Am;
+    private javax.swing.JButton B1;
+    private javax.swing.JButton B10;
+    private javax.swing.JButton B11;
+    private javax.swing.JButton B12;
+    private javax.swing.JButton B13;
+    private javax.swing.JButton B14;
+    private javax.swing.JButton B15;
+    private javax.swing.JButton B16;
+    private javax.swing.JButton B17;
+    private javax.swing.JButton B18;
+    private javax.swing.JButton B19;
+    private javax.swing.JButton B2;
+    private javax.swing.JButton B20;
+    private javax.swing.JButton B21;
+    private javax.swing.JButton B22;
+    private javax.swing.JButton B23;
+    private javax.swing.JButton B24;
+    private javax.swing.JButton B25;
+    private javax.swing.JButton B26;
+    private javax.swing.JButton B27;
+    private javax.swing.JButton B28;
+    private javax.swing.JButton B29;
+    private javax.swing.JButton B3;
+    private javax.swing.JButton B30;
+    private javax.swing.JButton B31;
+    private javax.swing.JButton B32;
+    private javax.swing.JButton B33;
+    private javax.swing.JButton B34;
+    private javax.swing.JButton B35;
+    private javax.swing.JButton B36;
+    private javax.swing.JButton B37;
+    private javax.swing.JButton B38;
+    private javax.swing.JButton B39;
+    private javax.swing.JButton B4;
+    private javax.swing.JButton B40;
+    private javax.swing.JButton B41;
+    private javax.swing.JButton B42;
+    private javax.swing.JButton B43;
+    private javax.swing.JButton B44;
+    private javax.swing.JButton B45;
+    private javax.swing.JButton B46;
+    private javax.swing.JButton B47;
+    private javax.swing.JButton B48;
+    private javax.swing.JButton B49;
+    private javax.swing.JButton B5;
+    private javax.swing.JButton B50;
+    private javax.swing.JButton B51;
+    private javax.swing.JButton B52;
+    private javax.swing.JButton B53;
+    private javax.swing.JButton B54;
+    private javax.swing.JButton B55;
+    private javax.swing.JButton B56;
+    private javax.swing.JButton B57;
+    private javax.swing.JButton B58;
+    private javax.swing.JButton B59;
+    private javax.swing.JButton B6;
+    private javax.swing.JButton B60;
+    private javax.swing.JButton B61;
+    private javax.swing.JButton B62;
+    private javax.swing.JButton B63;
+    private javax.swing.JButton B64;
+    private javax.swing.JButton B65;
+    private javax.swing.JButton B66;
+    private javax.swing.JButton B67;
+    private javax.swing.JButton B68;
+    private javax.swing.JButton B69;
+    private javax.swing.JButton B7;
+    private javax.swing.JButton B70;
+    private javax.swing.JButton B71;
+    private javax.swing.JButton B72;
+    private javax.swing.JButton B73;
+    private javax.swing.JButton B74;
+    private javax.swing.JButton B75;
+    private javax.swing.JButton B76;
+    private javax.swing.JButton B77;
+    private javax.swing.JButton B78;
+    private javax.swing.JButton B79;
+    private javax.swing.JButton B8;
+    private javax.swing.JButton B80;
+    private javax.swing.JButton B81;
+    private javax.swing.JButton B82;
+    private javax.swing.JButton B83;
+    private javax.swing.JButton B84;
+    private javax.swing.JButton B85;
+    private javax.swing.JButton B86;
+    private javax.swing.JButton B87;
+    private javax.swing.JButton B88;
+    private javax.swing.JButton B89;
+    private javax.swing.JButton B9;
+    private javax.swing.JButton B90;
+    private javax.swing.JButton Bk;
+    private javax.swing.JButton Ce;
+    private javax.swing.JButton Cf;
+    private javax.swing.JButton Cm;
+    private javax.swing.JButton Dy;
+    private javax.swing.JButton Er;
+    private javax.swing.JButton Es;
+    private javax.swing.JButton Eu;
+    private javax.swing.JButton Fm;
+    private javax.swing.JButton Gasesnobles;
+    private javax.swing.JButton Gd;
+    private javax.swing.JButton Halogenos;
+    private javax.swing.JButton Ho;
+    private javax.swing.JButton IA;
+    private javax.swing.JButton IB;
+    private javax.swing.JButton IIA;
+    private javax.swing.JButton IIB;
+    private javax.swing.JButton IIIA;
+    private javax.swing.JButton IIIB;
+    private javax.swing.JButton IVA;
+    private javax.swing.JButton IVB;
+    private javax.swing.JButton La;
+    private javax.swing.JButton Lr;
+    private javax.swing.JButton Lu;
+    private javax.swing.JButton Md;
+    private javax.swing.JButton Metales;
+    private javax.swing.JButton Metalesdetransicion;
+    private javax.swing.JButton Metaloides;
+    private javax.swing.JButton Nd;
+    private javax.swing.JButton No;
+    private javax.swing.JButton Nometales;
+    private javax.swing.JButton Np;
+    private javax.swing.JButton P1;
+    private javax.swing.JButton P2;
+    private javax.swing.JButton P3;
+    private javax.swing.JButton P4;
+    private javax.swing.JButton P5;
+    private javax.swing.JButton P6;
+    private javax.swing.JButton P7;
+    private javax.swing.JButton P8;
+    private javax.swing.JButton Pa;
+    private javax.swing.JButton Pm;
+    private javax.swing.JButton Pr;
+    private javax.swing.JButton Pu;
     private javax.swing.JButton SL;
-    private javax.swing.JButton Sb;
-    private javax.swing.JButton Sc;
-    private javax.swing.JButton Se;
-    private javax.swing.JButton Sg;
-    private javax.swing.JButton Si;
-    private javax.swing.JButton Sn;
-    private javax.swing.JButton Sr;
+    private javax.swing.JButton Sm;
     private javax.swing.JTextField T1;
     private javax.swing.JTextField T2;
     private javax.swing.JTextField T3;
     private javax.swing.JTextField T4;
     private javax.swing.JTextField T5;
-    private javax.swing.JButton Ta;
-    private javax.swing.JButton Tc;
-    private javax.swing.JButton Te;
-    private javax.swing.JButton Ti;
-    private javax.swing.JButton Tl;
-    private javax.swing.JButton Ts;
-    private javax.swing.JButton V;
-    private javax.swing.JButton W;
-    private javax.swing.JButton Xe;
-    private javax.swing.JButton Y;
-    private javax.swing.JButton Zn;
-    private javax.swing.JButton Zr;
+    private javax.swing.JButton Tb;
+    private javax.swing.JButton Th;
+    private javax.swing.JButton Tm;
+    private javax.swing.JButton U;
+    private javax.swing.JButton VA;
+    private javax.swing.JButton VB;
+    private javax.swing.JButton VIA;
+    private javax.swing.JButton VIB;
+    private javax.swing.JButton VIIA;
+    private javax.swing.JButton VIIB;
+    private javax.swing.JButton VIIIA;
+    private javax.swing.JButton VIIIB;
+    private javax.swing.JButton Yb;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -2783,41 +8596,12 @@ public class Tabla extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
-    private javax.swing.JMenu jMenu7;
-    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JMenuBar jMenuBar3;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
-    private javax.swing.JMenuItem jMenuItem11;
-    private javax.swing.JMenuItem jMenuItem12;
-    private javax.swing.JMenuItem jMenuItem13;
-    private javax.swing.JMenuItem jMenuItem14;
-    private javax.swing.JMenuItem jMenuItem15;
-    private javax.swing.JMenuItem jMenuItem16;
-    private javax.swing.JMenuItem jMenuItem17;
-    private javax.swing.JMenuItem jMenuItem18;
-    private javax.swing.JMenuItem jMenuItem19;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem20;
-    private javax.swing.JMenuItem jMenuItem21;
-    private javax.swing.JMenuItem jMenuItem22;
-    private javax.swing.JMenuItem jMenuItem23;
-    private javax.swing.JMenuItem jMenuItem24;
-    private javax.swing.JMenuItem jMenuItem25;
-    private javax.swing.JMenuItem jMenuItem26;
-    private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
-    private javax.swing.JMenuItem jMenuItem8;
-    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }

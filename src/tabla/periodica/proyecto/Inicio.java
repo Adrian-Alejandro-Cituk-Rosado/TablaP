@@ -18,7 +18,8 @@ public class Inicio extends javax.swing.JFrame {
      */
     public Inicio() {
         initComponents();
-        setLocationRelativeTo(this);
+        setLocationRelativeTo(null);
+        this.setExtendedState(this.MAXIMIZED_BOTH);
         
         
        
@@ -33,54 +34,77 @@ public class Inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Iratabla = new javax.swing.JButton();
         Iratabla1 = new javax.swing.JButton();
+        Salir = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setMinimumSize(new java.awt.Dimension(1920, 1080));
+        setResizable(false);
+        getContentPane().setLayout(null);
 
-        Iratabla.setBackground(new java.awt.Color(0, 153, 102));
-        Iratabla.setFont(new java.awt.Font("Eras Demi ITC", 0, 13)); // NOI18N
-        Iratabla.setText("Ir a tabla periódica");
-        Iratabla.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        Iratabla.setSelected(true);
-        Iratabla.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                IratablaActionPerformed(evt);
-            }
-        });
-        getContentPane().add(Iratabla, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, 147, 76));
-
-        Iratabla1.setBackground(new java.awt.Color(0, 153, 102));
-        Iratabla1.setFont(new java.awt.Font("Eras Demi ITC", 0, 13)); // NOI18N
-        Iratabla1.setText("Salir");
-        Iratabla1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Iratabla1.setFont(new java.awt.Font("Eras Demi ITC", 0, 18)); // NOI18N
+        Iratabla1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/abstract-green-background-free-vector.jpg"))); // NOI18N
+        Iratabla1.setText("Ir a la tabla");
+        Iratabla1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Iratabla1.setContentAreaFilled(false);
+        Iratabla1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Iratabla1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Iratabla1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/verde abstracto brillar.jpg"))); // NOI18N
         Iratabla1.setSelected(true);
         Iratabla1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Iratabla1ActionPerformed(evt);
             }
         });
-        getContentPane().add(Iratabla1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 310, 147, 76));
+        getContentPane().add(Iratabla1);
+        Iratabla1.setBounds(880, 280, 240, 76);
 
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/galaxia.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 720));
+        Salir.setFont(new java.awt.Font("Eras Demi ITC", 0, 18)); // NOI18N
+        Salir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/abstract-green-background-free-vector.jpg"))); // NOI18N
+        Salir.setText("Salir");
+        Salir.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(5, 5, 5), 3));
+        Salir.setContentAreaFilled(false);
+        Salir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Salir.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Salir.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/verde abstracto brillar.jpg"))); // NOI18N
+        Salir.setSelected(true);
+        Salir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SalirActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Salir);
+        Salir.setBounds(880, 460, 240, 76);
+
+        jLabel2.setFont(new java.awt.Font("Showcard Gothic", 0, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 204, 0));
+        jLabel2.setText("¡¡¡BIENVENIDO!!!");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(810, 150, 540, 130);
+
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondo/inicio.jpg"))); // NOI18N
+        jLabel1.setMaximumSize(new java.awt.Dimension(2930, 1150));
+        jLabel1.setMinimumSize(new java.awt.Dimension(1920, 1150));
+        jLabel1.setPreferredSize(new java.awt.Dimension(1920, 1150));
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(-30, -50, 2000, 1180);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void IratablaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IratablaActionPerformed
-        Tabla window=new Tabla();
-        window.setTitle("Tabla periódica");
+    private void Iratabla1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Iratabla1ActionPerformed
+         Tabla window=new Tabla();
+        window.setTitle("Tabla periódica de los elementos");
         window.setVisible(true);
         dispose();
-    }//GEN-LAST:event_IratablaActionPerformed
-
-    private void Iratabla1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Iratabla1ActionPerformed
-        System.exit(0);
     }//GEN-LAST:event_Iratabla1ActionPerformed
+
+    private void SalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SalirActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_SalirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -118,8 +142,9 @@ public class Inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Iratabla;
     private javax.swing.JButton Iratabla1;
+    private javax.swing.JButton Salir;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
